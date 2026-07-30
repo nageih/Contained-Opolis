@@ -244,7 +244,7 @@
     "item.justdirethings.eclipsealloy_leggings": "Eclipse Alloy Spacesuit Leggings",
     "item.justdirethings.eclipsealloy_boots": "Eclipse Alloy Spacesuit Boots",
 
-    "contained:space_warning": "You cannot place this block in space!",
+    "contained.space_warning": "You cannot place this block in space!",
 
     "tooltip.asteroid.rocks": "Crunchy!",
     "tooltip.roasted.rocks": "Crunchy!",
