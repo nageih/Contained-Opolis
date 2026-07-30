@@ -1,0 +1,9 @@
+minecraft:overworld
+contained:crystalore
+contained:fractoria
+minecraft:the_nether
+contained:space
+contained:cindrath
+woot_revived:drop_simulator
+minecraft:the_end
+ae2:spatial_storage

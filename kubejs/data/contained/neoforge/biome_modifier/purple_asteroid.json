@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "contained:fractoria_plains",
+  "features": "contained:asteroid_in_ground",
+  "step": "underground_ores"
+}

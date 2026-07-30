@@ -1,0 +1,164 @@
+Contained
+
+// Template for changelog
+# Contained Opolis <version>
+
+### Changes
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Contained Opolis 5.1
+
+### Changes
+- Updated to NeoForge 21.1.243
+- Updated all Mods to the latest versions
+- Added Leafy String to the quests
+- Added Leather to the quests
+- Updated the Fluid Generator quest description
+- Now Light Gray Asteroid, Organic Powder and Clay work inside the Compacting Drawers
+- Quests are now FLEXIBLE not LINEAR, basically quest will complete even if you haven't unlocked them
+- Fixed Eroding Water and Purifying Water recipes
+- Removed not needed Strainer recipes
+- Added recipe for Brown Mushroom, Red Mushroom, Crimson Fungus, Warped Fungus and Sweet Berries using Mystical Agriculture Essences
+- Added few mods pipes to the Cable Facades config to allow them to be covered with facades
+- Added Leaves to the Cloche
+- Added Infusion Altarnator to the quests
+- Changed Ender Chest/Tank/Pouch/Battery recipes now they use Blazegold Blocks instead of Ender Pearls
+- Changed the default Ender Storage Personal Item to Ferricore Ingot instead of Diamond
+- Routers RF upgrade 1 now transfers 256 RF/t and RF upgrade 2 now transfers 1024 RF/t
+- Now if you use the Blaze Key on the Room Blocks you have 50% chance of getting the craftable Room Blocks and you have 100% of getting Almost Unbreakable Glass when you use it on an Unbreakable Glass
+- Mysterious Blocks when picked up with a hammer drop in world instead of going straight to the inventory
+- Fixed time to daytime so now solar panels always work
+- Beds no longer work since it's always daytime now so be careful because now they just explode when you try to sleep in them
+- Disabled Day Night Cycle, Weather Cycle, Trader Spawning, Patrol Spawning and Insomnia game rules
+- Added a resource pack to hide the Sun and Moon and configured the ComplementaryReimagined + EuphoriaPatches shader to look a bit better
+- Removed the Structure Compass mod
+- Organic powder and Organic powder block now compost at 100% chance
+- Added Growth Accelerator Tiers for better Growth Accelerators if someone doesn't want to use the Enderic Lasers
+- Added Chilled Water, Iced Water and Super Coolant to works as coolant for the Powah
+- Added Iron Chests and Functional Storage to the Smart Crafting Tables whitelist
+- Removed unused GeOres
+
+# Contained Opolis 5.0
+
+## Changes
+- Updated to NeoForge 21.1.242
+- Updated all Mods to the latest versions
+- Fixed Just Dire Things server config not having the correct minimum machine tick speed value
+- Made Integrated Dynamics default to 20 ticks/operation
+- Mentioned in the hammer quest that the hammers can pick up Mysterious Blocks
+- Increased the Gem Finder durability to 65535 so that it doesn't break that soon
+- Changed Rechiseled: AE2 to Rechiseled: Applied Energistics 2 to enable autocrafting chiseled blocks in the AE2 system
+- Added Collapsible Groups mod to organize JEI bit with some custom groups
+- Disabled /spawn command use /playerspawn or /sky spawn instead to get to the spawn
+- Fully removed unused Mystical Agriculture Essences recipes from JEI
+- Added Discord Rich Presence
+- Added Explorer's Compass to replace Structure Compass because it was crashing if hovered over in the Storage Terminal
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Contained Opolis 4.1
+
+## Changes
+- Updated to NeoForge 21.1.235
+- Updated all Mods to the latest versions
+- Fixed Pause Menu sizing
+- Made JEI wider
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Contained Opolis 4.0
+
+## Changes
+- Updated to NeoForge 21.1.234
+- Updated all Mods to the latest versions
+- Exploit related to NBT Editing with FTBLib was fixed
+- Removed Sodium Dynamic Lights, Extras and Options API because they are not updated to work with the latest version of Sodium
+- Added Sky Aesthetics to customize the skybox to have stars
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# Contained Opolis 3.9
+
+## Changes
+- Updated all the mods to the latest versions
+- Added missing Complementary Shaders - Reimagined
+
+## Mods
+<!-- MODS_CHANGELOG -->
+
+# 3.8
+
+**--Changes--**
+- Updated to NeoForge 21.1.233
+- Updated all Mods to the latest versions
+- Added MouseTweaks x Accessories Fix
+- Added Step Crafter (similar to ME Requester, but for RS)
+- Organic powder, organic powder block, leafy string, leaf pile, and mulch are now compostable
+
+# 3.7
+
+**---Changes---**
+- Updated to NeoForge 21.1.227
+- Updated all Mods to the latest versions
+- Fixed the Summoning Block recipe for the Happy Ghast
+- Made the Budding Core work with Fortune
+
+
+# 3.6
+
+**---Mods---**
+- Updated NeoForge to 21.1.224
+- Updated all Mods to the latest versions
+
+# 3.5
+
+**---Mods---**
+- Updated all Mods to the latest versions
+- Added Refined Construction Sticks
+- Changed to BBL Portals from Custom Portal API and PortalJS (Portals need to be reactivated)
+
+**---Fixes---**
+- Fixed Eroding Water and Purifying Water recipes
+- Disabled Mulch to Water and Lava conversion recipes
+- Fixed Experience Essence to Experience Droplet recipe
+
+# 3.4
+
+**---Mods---**
+- Downgraded FTB Ultimine to 2101.1.12 to fix In World Recipes
+
+**---Changes---**
+- Mentioned how to get the Faux Bedrock
+- Mentioned that Mystical Agriculture Coals can be used in Powah Reactor
+
+# 3.3
+
+**---Mods---**
+- Updated Applied Construction Sticks to fix the crash it caused
+
+# 3.2
+
+**---Mods---**
+- Updated NeoForge to 21.1.219
+- Updated all Mods to the latest versions
+- Updated BBL Colors - Connected Textures
+- Added Applied Construction Sticks
+
+**---Fixes---**
+- Removed unnecessary Alltheores Ore Hammer recipes
+- Fixed all duplicate recipe IDs
+- Fixed the Strainers Chance Upgrade percentages
+
+**---Changes---**
+- Added automatic slab to block reverse crafting recipes
+- Improved recipe generation handling for ingredient and item stack conversion
+- Cleaned up Contained.js structure and event closures
+- Added a duplicate recipe for the Smiting Template
+- Removed Unused Mystical Agriculture Essences and Seeds from JEI
+- Changed Mini Overworld recipe to use Chisel Faux Bedrock instead
+- Changed the Particle Accelerator setup quests to be a bit more informative
+- Removed default Stygian dust recipe

@@ -1,0 +1,26 @@
+{
+    "biome.contained.space": "Space",
+    "biome.contained.cindrath": "Cindrath Plains",
+    "biome.contained.cindrath_deltas": "Cindrath Deltas",
+    "biome.contained.deep_dark_crystalore": "Deep Dark Crystalore",
+    "biome.contained.lush_crystalore": "Lush Crystalore",
+    "biome.contained.fractoria_plains": "Fractoria Plains",
+    "dimension.contained.space": "Space",
+    "dimension.contained.cindrath": "Cindrath",
+    "dimension.contained.crystalore": "Crystalore",
+    "dimension.contained.fractoria": "Fractoria",
+
+    "block.draconicevolution.chaos_crystal_part": "Chaos Crystal",
+    "block.portaljs.portal_block": "Portal Block",
+
+    "contained.zombie": "Zombie Gateway",
+    "contained.skeleton": "Skeleton Gateway",
+    "contained.creeper": "Creeper Gateway",
+    "contained.spider": "Spider Gateway",
+    "contained.enderman": "Enderman Gateway",
+    "contained.wither_skeleton": "Wither Skeleton Gateway",
+    "contained.blaze": "Blaze Gateway"
+
+
+
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "minecraft:overworld"
+  ],
+  "to": "contained:space",
+  "form": {
+    "type": "imm_ptl:convert_conventional_portal",
+    "portal_block": "minecraft:diamond_block"
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "minecraft:flint_and_steel"
+  }
+}

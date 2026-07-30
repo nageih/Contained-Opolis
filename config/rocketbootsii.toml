@@ -1,0 +1,4 @@
+#Animate the player when using Rocket Boots
+"Player Animations" = true
+#Show the Rocket Boots HUD
+HUD = true

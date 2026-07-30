@@ -1,0 +1,140 @@
+{
+  "id": "chisel_llama_wools_carpets",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_llama_wools_carpets",
+    "fallback": "Chisel: Llama Wools/Carpets"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_yellow"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_white"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_red"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_purple"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_pink"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_orange"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_magenta"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_lime"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_light_gray"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_light_blue"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_green"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_gray"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_cyan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_brown"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_blue"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:wool_llama_black"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_yellow"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_white"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_red"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_purple"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_pink"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_orange"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_magenta"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_lime"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_light_gray"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_light_blue"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_green"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_gray"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_cyan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_brown"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_blue"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:carpet_llama_black"
+      }
+    ]
+  }
+}

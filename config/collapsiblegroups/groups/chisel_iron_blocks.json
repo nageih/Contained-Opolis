@@ -1,0 +1,40 @@
+{
+  "id": "chisel_iron_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_iron_blocks",
+    "fallback": "Chisel: Iron Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_bolted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_iron_thermal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "asd",
+  "name": {
+    "translate": "collapsible_groups.group.asd",
+    "fallback": "asd"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "minecraft:oak_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:oak_stairs"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:oak_slab"
+      }
+    ]
+  }
+}

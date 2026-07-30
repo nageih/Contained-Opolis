@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "contained:orange_1",
+      "weight": 1
+    },    
+	  {
+      "structure": "contained:orange_2",
+      "weight": 1
+    },    
+{
+      "structure": "contained:orange_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 1,
+    "spread_type": "triangular",
+    "salt": 3345
+  }
+}

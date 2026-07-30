@@ -1,0 +1,26 @@
+{
+    "structures": [
+      {
+        "structure": "contained:large_asteroid_room",
+        "weight": 1
+      },
+      {
+        "structure": "contained:large_asteroid_yellow",
+        "weight": 2
+      },
+      {
+        "structure": "contained:large_asteroid_blue",
+        "weight": 2
+      },
+      {
+        "structure": "contained:large_asteroid_red",
+        "weight": 2
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 14,
+      "separation": 2,
+      "salt": 456454
+    }
+}

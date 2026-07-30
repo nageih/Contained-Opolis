@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_edge_lights_top",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_edge_lights_top",
+    "fallback": "Simply Light: Edge Lights (Top)"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_edge_light_top"
+  }
+}

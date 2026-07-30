@@ -1,0 +1,56 @@
+{
+  "id": "aaaaa",
+  "name": {
+    "translate": "collapsible_groups.group.aaaaa",
+    "fallback": "AAAAA"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "minecraft:spruce_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:birch_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:jungle_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:acacia_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:dark_oak_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:mangrove_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:cherry_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:pale_oak_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:bamboo_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:crimson_planks"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:oak_log"
+      }
+    ]
+  }
+}

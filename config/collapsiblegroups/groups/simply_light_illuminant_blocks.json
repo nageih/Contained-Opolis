@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_illuminant_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_illuminant_blocks",
+    "fallback": "Simply Light: Illuminant Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_lamp_off"
+  }
+}

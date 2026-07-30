@@ -1,0 +1,40 @@
+{
+  "id": "chisel_bronze_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_bronze_blocks",
+    "fallback": "Chisel: Bronze Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_bronze_bolted"
+      }
+    ]
+  }
+}

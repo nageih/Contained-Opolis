@@ -1,0 +1,40 @@
+{
+  "id": "chisel_silver_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_silver_blocks",
+    "fallback": "Chisel: Silver Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_silver_bolted"
+      }
+    ]
+  }
+}

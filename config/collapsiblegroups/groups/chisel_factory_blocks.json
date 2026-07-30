@@ -1,0 +1,97 @@
+{
+  "id": "chisel_factory_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_factory_blocks",
+    "fallback": "Chisel: Factory Blocks"
+  },
+  "enabled": true,
+  "icon": "chisel_chipped_integration:factory_yellow_black_caution_stripes",
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_yellow_black_caution_stripes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_wireframe"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_very_rusty_plate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_vents"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_slighly_rusty_plate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_segmented_rusty_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_rusty_plate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_purple_wireframe"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_orange_white_caution_stripes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_old_vents"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_metal_column"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_metalbox"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_ice_ice_ice"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_grinder"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_gold_plated_circuit"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_gold_framed_purple_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_dotted_rusty_plate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_circuit"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_blue_wireframe"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_blue_framed_circuit"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:factory_blue_circuits"
+      }
+    ]
+  }
+}

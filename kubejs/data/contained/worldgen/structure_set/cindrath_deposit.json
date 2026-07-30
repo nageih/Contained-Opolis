@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "contained:cindrath_deposit",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 1,
+    "salt": 123456,
+    "spread_type": "linear"
+  }
+}

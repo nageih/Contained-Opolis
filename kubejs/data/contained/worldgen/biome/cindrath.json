@@ -1,0 +1,98 @@
+{
+  "temperature": 0.8,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 16753920,
+    "fog_color": 16753996,
+    "water_color": 732271,
+    "water_fog_color": 921155,
+    "grass_color": 4406589,
+    "foliage_color": 10308802,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {
+      "ambient": [],
+      "axolotls": [],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 60
+        }
+      ],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:ghast",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:blaze",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 7
+        }
+      ],
+      "underground_water_creature": [],
+      "water_ambient": [],
+      "water_creature": []
+    },
+  "spawn_costs": {
+    "minecraft:magma_cube": {
+      "energy_budget": 0.1,
+      "charge": 100.0
+    },
+    "minecraft:blaze": {
+      "energy_budget": 0.5,
+      "charge": 5.0
+    },
+    "minecraft:wither_skeleton": {
+      "energy_budget": 0.1,
+      "charge": 1.0
+    },
+    "minecraft:ghast": {
+      "energy_budget": 0.5,
+      "charge": 10.0
+    }
+  },
+  "carvers": {},
+  "features": [
+      [],
+      [
+        "contained:oil_lake_surface"
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+}
+
+
+  

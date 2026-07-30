@@ -1,0 +1,12 @@
+{
+  "id": "bundles",
+  "name": {
+    "translate": "collapsible_groups.group.bundles",
+    "fallback": "Bundles"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "minecraft:bundles"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chisel_invar_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_invar_blocks",
+    "fallback": "Chisel: Invar Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_bolted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_invar_thermal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rechiseled_applied_energistics_2_certus_quartz_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.rechiseled_applied_energistics_2_certus_quartz_blocks",
+    "fallback": "Rechiseled: Applied Energistics 2 Certus Quartz Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "rechiseledae:certus_quartz_block"
+  }
+}

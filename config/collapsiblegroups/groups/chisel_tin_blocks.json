@@ -1,0 +1,40 @@
+{
+  "id": "chisel_tin_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_tin_blocks",
+    "fallback": "Chisel: Tin Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_tin_bolted"
+      }
+    ]
+  }
+}

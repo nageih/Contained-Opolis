@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "contained:fractoria_plains",
+  "features": "colors:gray_tree_placed",
+  "step": "vegetal_decoration"
+}

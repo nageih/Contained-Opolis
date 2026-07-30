@@ -1,0 +1,68 @@
+{
+  "id": "chisel_unobtainable_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_unobtainable_blocks",
+    "fallback": "Chisel: Unobtainable Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_jigsaw_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_structure_block_data"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_structure_block_corner"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_structure_block_save"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_structure_block_load"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_structure_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_repeating_command_block_conditional"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_repeating_command_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_chain_command_block_conditional"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_chain_command_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_command_block_conditional"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_command_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_old_command_block"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:unobtainable_faux_bedrock"
+      }
+    ]
+  }
+}

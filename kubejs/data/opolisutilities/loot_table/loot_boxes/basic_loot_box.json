@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {"type": "minecraft:item", "weight": 10, "name": "colors:gray_asteroid"},
+        {"type": "minecraft:item", "weight": 5, "name": "simplehats:hatbag_common"},
+        {"type": "minecraft:item", "weight": 3, "name": "simplehats:hatbag_uncommon"},
+        {"type": "minecraft:item", "weight": 1, "name": "simplehats:hatbag_rare"},
+
+
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 1.0, "max": 4.0},
+          "add": false}], "name": "minecraft:blaze_rod"},
+      
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 3.0, "max": 6.0},
+          "add": false}], "name": "minecraft:blaze_powder"},
+      
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 2.0, "max": 3.0},
+          "add": false}], "name": "minecraft:bone"},
+      
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 4.0, "max": 5.0},
+          "add": false}], "name": "minecraft:magma_cream"},
+      
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 2.0, "max": 5.0},
+          "add": false}], "name": "minecraft:slime_ball"}, 
+
+        {"type": "minecraft:item", "weight": 5, "functions": 
+          [{"function": "minecraft:set_count","count": {"type": "minecraft:uniform", "min": 4.0, "max": 8.0},
+          "add": false}], "name": "contained:primal_steel_ingot"}
+      ]
+    }
+  ]
+}

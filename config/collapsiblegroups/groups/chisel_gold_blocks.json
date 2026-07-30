@@ -1,0 +1,40 @@
+{
+  "id": "chisel_gold_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_gold_blocks",
+    "fallback": "Chisel: Gold Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_gold_bolted"
+      }
+    ]
+  }
+}

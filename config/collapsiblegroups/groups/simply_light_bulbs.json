@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_bulbs",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_bulbs",
+    "fallback": "Simply Light: Bulbs"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_bulb"
+  }
+}

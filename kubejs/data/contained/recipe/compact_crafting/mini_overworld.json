@@ -1,0 +1,70 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+        "type": "compactcrafting:filled",
+        "component": "A"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "B"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "B"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "C"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "C"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "C"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "D"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "D"
+    },
+    {
+        "type": "compactcrafting:filled",
+        "component": "D"
+    }
+   ],
+  "catalyst": {
+    "id": "draconicevolution:chaotic_core",
+    "Count": 1
+  },
+    "components": {
+    "A": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:grass_block"
+    },
+    "B": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:dirt"
+    },
+    "C": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:stone"
+    },
+    "D": {
+        "type": "compactcrafting:block",
+        "block": "chisel_chipped_integration:unobtainable_faux_bedrock"
+    }
+  },
+  "outputs": [ 
+    {
+        "id": "contained:mini_overworld",
+        "Count": 1
+    }
+]
+}

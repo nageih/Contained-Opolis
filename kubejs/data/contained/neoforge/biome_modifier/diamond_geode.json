@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": ["contained:lush_crystalore", "contained:deep_dark_crystalore"],
+  "features": "geore:diamond_geode",
+  "step": "underground_ores"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chisel_cobalt_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_cobalt_blocks",
+    "fallback": "Chisel: Cobalt Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_bolted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_cobalt_thermal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chisel_platinum_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_platinum_blocks",
+    "fallback": "Chisel: Platinum Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_platinum_bolted"
+      }
+    ]
+  }
+}

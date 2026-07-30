@@ -1,0 +1,25 @@
+{
+  "id": "contained:space_sky",
+  "world": "contained:space",
+  "weather": false,
+  "rain": false,
+  "sky_objects": [],
+  "stars": {
+    "vanilla": false,
+    "moving_stars": true,
+    "count": 20000,
+    "all_days_visible": true,
+    "scale": 0.08,
+    "color": [255, 255, 255]
+  },
+  "sky_color": {
+    "sunset_alpha_modifier": 0
+  },
+  "cloud_settings": {
+    "cloud": false,
+    "cloud_height": 300
+  },
+  "fog_settings": {
+    "fog": false
+  }
+}

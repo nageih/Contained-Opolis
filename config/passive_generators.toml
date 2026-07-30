@@ -1,0 +1,81 @@
+	["Heat Source Multiplier"."Heat Generator"]
+		#[Default:0.5]
+		torch = 0.5
+		#[Default:0.7]
+		soul_torch = 0.7
+		#[Default:1.0]
+		fire = 1.0
+		#[Default:1.2]
+		soul_fire = 1.2
+		#[Default:1.2]
+		magma_block = 1.2
+		#[Default:1.5]
+		campfire = 1.5
+		#[Default:1.7]
+		soul_campfire = 1.7
+		#[Default:2.0]
+		lava = 2.0
+		#[Default:4.0]
+		uranium_block = 4.0
+
+	["Heat Source Multiplier"."Thermo Generator"]
+		#[Default:-1.5]
+		blue_ice = -1.5
+		#[Default:-1.4]
+		packed_ice = -1.4
+		#[Default:-1.25]
+		ice = -1.25
+		#[Default:-1.1]
+		water = -1.1
+		#[Default:1.1]
+		fire = 1.1
+		#[Default:1.2]
+		soul_fire = 1.2
+		#[Default:1.3]
+		magma_block = 1.3
+		#[Default:1.5]
+		lava = 1.5
+		#[Default:2.0]
+		uranium_block = 2.0
+
+	[Generator."Dragon Energy Absorber"]
+		#Controls how much FE/t the dragon energy absorber generates. [Default:4096]
+		dragon_energy_absorber_energy_output = 4096.0
+
+	[Generator."Heat Generator"]
+		#Controls how much FE/t the heat generator generates. The energy output may change due to the heat multiplier from the heat source. [Default:64]
+		heat_generator_energy_output = 64.0
+
+	[Generator."Lava Generator"]
+		#Controls how much FE/t the lava generator generates. [Default:128]
+		lava_generator_energy_output = 128.0
+
+	[Generator."Lightning Generator"]
+		#Controls how much FE a lightning strike generates. [Default:10000]
+		energy_per_lightning_strike = 10000.0
+
+	[Generator."Thermo Generator Tier 1"]
+		#Controls how much FE/t the thermo generator tier 1 generates. Note: The energy output can change due to the thermal balance. [Default:160]
+		thermo_generator_tier_1_energy_output = 160.0
+
+	[Generator."Thermo Generator Tier 2"]
+		#Controls how much FE/t the thermo generator tier 2 generates. Note: The energy output can change due to the thermal balance. [Default:300]
+		thermo_generator_tier_2_energy_output = 300.0
+
+	[Generator."Water Generator"]
+		#Controls how much FE/t is generated per side. [Default:60]
+		water_generator_energy_output = 60.0
+
+	[Generator."Wind Generator"]
+		#Controls the height multiplier of the wind generator. [Default:2]
+		height_multiplier = 2.0
+		#Controls the minimum height for the wind generator to generate energy. [Default:2]
+		mininum_height = 1.0
+
+	[Generator."Solar Panel"]
+		#Controls the energy output of the lapotron solar panel. [Default:4]
+		lapotron_solar_panel_energy_output = 4.0
+		#Controls the energy output of the quartzite solar panel. [Default:32]
+		quartzite_solar_panel_energy_output = 32.0
+		#Controls the energy output of the crystalline solar panel. [Default:128]
+		crystalline_solar_panel_energy_output = 128.0

@@ -1,0 +1,12 @@
+{
+  "id": "rechiseled_applied_energistics_2_sky_stones",
+  "name": {
+    "translate": "collapsible_groups.group.rechiseled_applied_energistics_2_sky_stones",
+    "fallback": "Rechiseled: Applied Energistics 2 Sky Stones"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "rechiseledae:sky_stone_block"
+  }
+}

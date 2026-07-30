@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_posts",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_posts",
+    "fallback": "Simply Light: Illuminant Columns"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_post"
+  }
+}

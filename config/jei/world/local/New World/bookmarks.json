@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"contained:mysterious_white_asteroid_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"contained:mysterious_alloy"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_redstone"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_nickel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_iron"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:molten_stone"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:still_biofuel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justdirethings:polymorphic_fluid_source"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+]

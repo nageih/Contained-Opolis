@@ -1,0 +1,820 @@
+{
+  "id": "geore_clusters",
+  "name": {
+    "translate": "collapsible_groups.group.geore_clusters",
+    "fallback": "Geore Clusters"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_coal_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_coal_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_coal_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:coal_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:coal_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_coal\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_copper_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_copper_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_copper_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_copper\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_diamond_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_diamond_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_diamond_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_diamond\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_gold\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_gold_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_gold_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_lapis\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_lapis_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_redstone\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_ruby\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_tin\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_tin_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_tin_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_platinum\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_platinum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_platinum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_platinum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_nickel\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_nickel_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_nickel_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_nickel_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_aluminum\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_aluminum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_aluminum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_aluminum_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_black_quartz\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_black_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_black_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_black_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_zinc\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_zinc_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_zinc_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_zinc_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_sapphire\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_sapphire_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_sapphire_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_sapphire_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_ancient_debris\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_ancient_debris_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_ancient_debris_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_ancient_debris_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_quartz\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_quartz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_iron\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_iron_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_iron_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_iron_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_emerald\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_emerald_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_emerald_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_emerald_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_gold_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_lapis_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_redstone_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_topaz\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_uraninite\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_ruby_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_redstone_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_lapis_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_redstone_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_ruby_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_topaz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_monazite\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_lead\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_uraninite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_topaz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_ruby_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_topaz_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_uraninite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_monazite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_osmium\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_uraninite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_monazite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_lead_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_silver\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_tinted_glass\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_monazite_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_lead_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_osmium_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:budding_tungsten\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_lead_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_osmium_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_silver_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_cluster\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_osmium_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_silver_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:small_tungsten_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_silver_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_tungsten_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_tungsten_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uranium_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_uranium_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_tin_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_block\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_uranium_bud\",\"count\":1}"
+      },
+      {
+        "type": "item",
+        "id": "geore:small_uranium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:uranium_cluster"
+      },
+      {
+        "type": "item",
+        "id": "geore:budding_uranium"
+      },
+      {
+        "type": "item",
+        "id": "geore:uranium_tinted_glass"
+      },
+      {
+        "type": "item",
+        "id": "geore:allthemodium_block"
+      },
+      {
+        "type": "item",
+        "id": "geore:large_allthemodium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:medium_allthemodium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:small_allthemodium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:allthemodium_cluster"
+      },
+      {
+        "type": "item",
+        "id": "geore:budding_allthemodium"
+      },
+      {
+        "type": "item",
+        "id": "geore:allthemodium_tinted_glass"
+      },
+      {
+        "type": "item",
+        "id": "geore:vibranium_block"
+      },
+      {
+        "type": "item",
+        "id": "geore:large_vibranium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:medium_vibranium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:small_vibranium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:vibranium_cluster"
+      },
+      {
+        "type": "item",
+        "id": "geore:budding_vibranium"
+      },
+      {
+        "type": "item",
+        "id": "geore:unobtainium_block"
+      },
+      {
+        "type": "item",
+        "id": "geore:large_unobtainium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:medium_unobtainium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:small_unobtainium_bud"
+      },
+      {
+        "type": "item",
+        "id": "geore:unobtainium_cluster"
+      },
+      {
+        "type": "item",
+        "id": "geore:budding_unobtainium"
+      },
+      {
+        "type": "item",
+        "id": "geore:vibranium_tinted_glass"
+      },
+      {
+        "type": "item",
+        "id": "geore:unobtainium_tinted_glass"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_illuminant_slabs",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_illuminant_slabs",
+    "fallback": "Simply Light: Illuminant Slabs"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_slab"
+  }
+}

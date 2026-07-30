@@ -1,0 +1,60 @@
+{
+  "id": "chisel_diamond_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_diamond_blocks",
+    "fallback": "Chisel: Diamond Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_bismuth"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_cells"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_crushed"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_embossed"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_gem"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_gold_encrusted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_ornate_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_simple"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_purple_space"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_space"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_diamond_zelda"
+      }
+    ]
+  }
+}

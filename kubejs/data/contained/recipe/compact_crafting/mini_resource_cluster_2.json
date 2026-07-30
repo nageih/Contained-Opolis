@@ -1,0 +1,176 @@
+{
+  "type": "compactcrafting:miniaturization",
+  "recipeSize": 9,
+  "layers": [
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["A", "A", "A", "A", "-", "B", "B", "B", "B"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"],
+            ["C", "C", "C", "C", "-", "D", "D", "D", "D"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"]
+        ]
+    },
+    {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["E", "E", "E", "E", "-", "F", "F", "F", "F"],
+            ["-", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"],
+            ["G", "G", "G", "G", "-", "H", "H", "H", "H"]
+        ]
+    }
+   ],
+  "catalyst": {
+    "id": "draconicevolution:chaotic_core",
+    "Count": 1
+  },
+    "components": {
+    "A": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:amethyst_block"
+    },
+    "B": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:coal_block"
+    },
+    "C": {
+        "type": "compactcrafting:block",
+        "block": "alltheores:silver_block"
+    },
+    "D": {
+        "type": "compactcrafting:block",
+        "block": "ae2:quartz_block"
+    },
+    "E": {
+        "type": "compactcrafting:block",
+        "block": "alltheores:platinum_block"
+    },
+    "F": {
+        "type": "compactcrafting:block",
+        "block": "minecraft:quartz_block"
+    },
+    "G": {
+        "type": "compactcrafting:block",
+        "block": "draconicevolution:draconium_block"
+    },
+    "H": {
+        "type": "compactcrafting:block",
+        "block": "woot_revived:stygian_block"
+    }
+  },
+  "outputs": [ 
+    {
+        "id": "contained:mini_resource_cluster_2",
+        "Count": 1
+    }
+]
+}

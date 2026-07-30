@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "contained:cindrath_deltas",
+  "features": "contained:black_asteroid",
+  "step": "underground_ores"
+}

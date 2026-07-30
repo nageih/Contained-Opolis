@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_fixtures",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_fixtures",
+    "fallback": "Simply Light: Illuminant Fixtures"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_fixture"
+  }
+}

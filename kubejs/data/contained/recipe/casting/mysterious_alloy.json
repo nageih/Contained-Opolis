@@ -1,0 +1,33 @@
+{
+    "type": "casting:mixing",
+    "inputs": [
+        {
+        "amount": 90,
+        "id": "casting:molten_redstone"
+        },
+        {
+        "amount": 90,
+        "id": "casting:molten_nickel"
+        },
+        {
+        "amount": 90,
+        "id": "casting:molten_iron"
+        },
+        {
+        "amount": 1000,
+        "id": "casting:molten_stone"
+        },
+        {
+        "amount": 1000,
+        "id": "oritech:still_biofuel"
+        },
+        {
+        "amount": 1000,
+        "id": "justdirethings:polymorphic_fluid_source"
+        }
+    ],
+    "output": {
+        "amount": 1000,
+        "id": "contained:mysterious_alloy"
+    }
+}

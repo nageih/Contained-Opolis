@@ -1,0 +1,40 @@
+{
+  "id": "chisel_copper_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_copper_blocks",
+    "fallback": "Chisel: Copper Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_copper_bolted"
+      }
+    ]
+  }
+}

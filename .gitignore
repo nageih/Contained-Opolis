@@ -1,0 +1,24 @@
+# Ignore everything by default
+
+*
+
+# Directories that should always be included
+
+!kubejs/
+!kubejs/**
+
+!defaultconfig/
+!defaultconfig/**
+
+!config/
+!config/**
+
+!changelogs/
+!changelogs/**
+
+# Files that should always be included
+
+!.gitignore
+!README.md
+!LICENSE.md
+!TODO.md

@@ -1,0 +1,51 @@
+{
+  "disableRain": true,
+  "enableGalaxies": true,
+  "enablePlanets": true,
+  "enableNebula": true,
+  "enableStarfield": true,
+  "enableSun": true,
+  "enableMoon": true,
+  "dayLengthTicks": 24000,
+  "customCelestialBodies": [
+    {
+      "name": "Mars",
+      "texture": "galaxyskyspace:textures/environment/mars.png",
+      "size": 12.0,
+      "distance": 100.0,
+      "angleOffset": 90.0,
+      "speedMultiplier": 1.0,
+      "tiltX": 20.0,
+      "tiltY": 30.0,
+      "tiltZ": 0.0,
+      "additiveBlend": false,
+      "rotates": true
+    },
+    {
+      "name": "Jupiter",
+      "texture": "galaxyskyspace:textures/environment/jupiter.png",
+      "size": 18.0,
+      "distance": 110.0,
+      "angleOffset": -45.0,
+      "speedMultiplier": 0.5,
+      "tiltX": -15.0,
+      "tiltY": 45.0,
+      "tiltZ": 0.0,
+      "additiveBlend": false,
+      "rotates": true
+    },
+    {
+      "name": "Blue Star",
+      "texture": "galaxyskyspace:textures/environment/blue_star.png",
+      "size": 6.0,
+      "distance": 120.0,
+      "angleOffset": 135.0,
+      "speedMultiplier": 1.0,
+      "tiltX": 45.0,
+      "tiltY": -45.0,
+      "tiltZ": 0.0,
+      "additiveBlend": true,
+      "rotates": true
+    }
+  ]
+}

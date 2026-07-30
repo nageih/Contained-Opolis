@@ -1,0 +1,148 @@
+{
+  "id": "chisel_technical_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_technical_blocks",
+    "fallback": "Chisel: Technical Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_vent"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_transparent_still_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_transparent_rusty_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_transparent_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_sturdy"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_still_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_small_pipes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_rusty_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_rusty_grate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_rusty_bolted_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_pipes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_old_vent"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_megacell"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_massive_hexagonal_plating"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_massive_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_malfunction_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_make_shift_plating"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_large_rusty_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_large_pipes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_insulation"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_grate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_glowing_vent"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_gears"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_fan"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_extremely_rusted_panels"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_extremely_corroded_panels"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_caution_framed_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_cables"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_engineering_pipes_0"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_engineering_pipes_1"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_engineering_pipes_2"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_engineering_pipes_3"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:technical_exhaust_plating"
+      }
+    ]
+  }
+}

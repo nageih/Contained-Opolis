@@ -1,0 +1,40 @@
+{
+  "id": "chisel_electrum_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_electrum_blocks",
+    "fallback": "Chisel: Electrum Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_thermal"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_electrum_bolted"
+      }
+    ]
+  }
+}

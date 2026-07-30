@@ -1,0 +1,18 @@
+#Custom Modifier Sets Config
+["Modifier Sets"]
+	#Disable all default modifier sets,...
+	#If enabled, only custom modifier sets defined below will be used.
+	disable_all_default_modifier_sets = false
+	#Define custom modifier groups as groupKey|displayName=MODIFIER1,MODIFIER2,...;item1,item2,#tag1,...
+	#Example: diamond|Diamond Tools=EFFICIENCY,SILK_TOUCH,TORCH_PLACING;minecraft:diamond,#minecraft:planks 
+	#This defines a group 'diamond' with display name 'Diamond Tools' containing modifiers EFFICIENCY, SILK_TOUCH, TORCH_PLACING
+	#and applicable items 'minecraft:diamond' and all items with tag 'minecraft:planks'
+	modifier_groups = [
+		"meshes|Meshes =UNBREAKING;#strainers:meshes",
+		"sculkCollector|Sculk Collector =UNBREAKING;contained:sculk_collector",
+		"blazeKey|Blaze Key =UNBREAKING;contained:blaze_key",
+		"hammers|Hammers =UNBREAKING;#contained:hammers",
+		"moddedPaxels|Modded Paxels =EQUIPMENT_LEVEL,TELEPORTING,EXCAVATION,EFFICIENCY,UNBREAKING,FORTUNE,REPAIRING,SILK_TOUCH,TORCH_PLACING,AUTO_SMELT,SOULBOUND;#c:tools/paxel",
+		"constructionSticks|Construction Sticks =UNBREAKING;#constructionstick:construction_sticks"
+	]
+

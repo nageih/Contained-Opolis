@@ -1,0 +1,40 @@
+{
+  "id": "chisel_aluminum_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_aluminum_blocks",
+    "fallback": "Chisel: Aluminum Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_bolted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_caution"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_egregious"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_industrial_relic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_scaffold"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_shipping_crate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:metal_aluminum_thermal"
+      }
+    ]
+  }
+}

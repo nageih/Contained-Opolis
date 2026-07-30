@@ -1,0 +1,124 @@
+{
+  "id": "chisel_redstone_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_redstone_blocks",
+    "fallback": "Chisel: Redstone Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_arrayed_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_big_tile"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_braid"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_circular"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_cracked"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_cracked_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_dent"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_disordered_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_encased_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_french_1"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_french_2"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_jellybean"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_layers"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_mosaic"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_ornate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_panel"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_pillar"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_prism"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_road"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_slanted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_small_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_small_disordered_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_small_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_twisted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_weathered_bricks"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_redstone_wide_bricks"
+      }
+    ]
+  }
+}

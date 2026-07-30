@@ -1,0 +1,31 @@
+{
+    "structures": [
+        {
+           "structure": "contained:small_asteroid_1",
+           "weight": 1
+        },
+        {
+            "structure": "contained:small_asteroid_2",
+            "weight": 1
+        },
+        {
+            "structure": "contained:small_asteroid_3",
+            "weight": 1
+        },
+        {
+            "structure": "contained:small_asteroid_4",
+            "weight": 1
+        },
+        {
+            "structure": "contained:small_asteroid_5",
+            "weight": 1
+        }
+    ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 1,
+    "spread_type": "triangular",
+    "salt": 456454
+  }
+}

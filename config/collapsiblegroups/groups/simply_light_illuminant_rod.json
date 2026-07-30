@@ -1,0 +1,12 @@
+{
+  "id": "simply_light_illuminant_rod",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_illuminant_rod",
+    "fallback": "Simply Light: Illuminant Rod"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "simplylight:any_rod"
+  }
+}

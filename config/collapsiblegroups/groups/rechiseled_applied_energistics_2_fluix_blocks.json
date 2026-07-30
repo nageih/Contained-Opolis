@@ -1,0 +1,12 @@
+{
+  "id": "rechiseled_applied_energistics_2_fluix_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.rechiseled_applied_energistics_2_fluix_blocks",
+    "fallback": "Rechiseled: Applied Energistics 2 Fluix Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "rechiseledae:fluix_block"
+  }
+}

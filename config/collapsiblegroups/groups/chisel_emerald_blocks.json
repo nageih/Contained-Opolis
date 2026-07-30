@@ -1,0 +1,68 @@
+{
+  "id": "chisel_emerald_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_emerald_blocks",
+    "fallback": "Chisel: Emerald Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_zelda"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_tile"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_smooth"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_prism"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_panel"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_ornate_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_ornate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_masonry"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_gold_encrusted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_cobble"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_circular"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_cell"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_emerald_bismuth"
+      }
+    ]
+  }
+}

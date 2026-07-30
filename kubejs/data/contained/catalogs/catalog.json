@@ -1,0 +1,36 @@
+{
+    "catalog": {
+        "id": "contained:catalog"
+    },
+    "entries": [
+        {"stack": {"id": "simplehats:hatbag_common", "count": 1}, "price": 3, "mode": "player_buys"},
+        {"stack": {"id": "simplehats:hatbag_uncommon", "count": 1}, "price": 6, "mode": "player_buys"},
+        {"stack": {"id": "simplehats:hatbag_rare", "count": 1}, "price": 9, "mode": "player_buys"},
+        {"stack": {"id": "simplehats:hatbag_epic", "count": 1}, "price": 12, "mode": "player_buys"},
+
+        {"stack": {"id": "simplehats:hatbag_festive", "count": 1}, "price": 9, "mode": "player_buys"},
+        
+        {"stack": {"id": "opolisutilities:basic_loot_box", "count": 1}, "price": 4, "mode": "player_buys"},
+
+        {"stack": {"id": "colors:red_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:blue_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:green_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:yellow_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:black_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:white_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:orange_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:purple_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:pink_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:brown_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:gray_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:light_gray_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:cyan_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:lime_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:magenta_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+        {"stack": {"id": "colors:light_blue_spray_can", "count": 1}, "price": 16, "mode": "player_buys"},
+
+        {"stack": {"id": "colors:glowstone_spray_can", "count": 1}, "price": 24, "mode": "player_buys"},
+       
+        {"stack": {"id": "opolisutilities:b_bucks", "count": 1}, "price": 1, "mode": "player_sells"}
+    ]
+}

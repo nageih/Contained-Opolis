@@ -1,0 +1,34 @@
+#Enable/Disable Server Entries overrides
+enabled = true
+#Internal Version Number. NO TOUCHY!
+version = 3
+#Server override entries
+
+[[entry]]
+    ip = "contained.benbenlaw.com"
+    
+    [[entry.presence]]
+        #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+        type = "PLAYING"
+        #The first line of text under the app name
+        description = "Currently In {{world.name}}"
+        #The second line of text under the app name
+        state = "Playing on the Official Public Server {{server.players.count}}/{{server.players.max}}"
+        #The Asset ID or URLs of images to randomly use for the large image
+        largeImageKey = ["mclogonew"]
+        #The text to show when someone hovers over the largeImage
+        largeImageText = "It's Minecraft {{game.version}}, but modded"
+        #The Asset ID or URLs of images to randomly use for the small image
+        smallImageKey = ["{{images.player}}"]
+        #The text to show when someone hovers over the smallImage
+        smallImageText = "{{player.name}}"
+        #The Twitch or Youtube URL to use when type is set to STREAMING
+        streamingActivityUrl = "https://twitch.tv/twitch"
+        #List of buttons (max 2) to show on the RPC
+        [[entry.presence.buttons]]
+            label = "CurseForge Page"
+            url = "https://www.curseforge.com/minecraft/modpacks/opolis-contained"
+        
+        [[entry.presence.buttons]]
+            label = "Discord"
+            url = "https://discord.gg/benbenlaw"

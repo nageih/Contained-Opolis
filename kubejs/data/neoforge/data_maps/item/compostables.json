@@ -1,0 +1,28 @@
+{
+  "values": {
+    "contained:bio_spores": {
+      "chance": 0.2
+    },
+    "contained:bio_sapling": {
+      "chance": 0.3
+    },
+    "mysticalagriculture:fertilized_essence": {
+      "chance": 0.9
+    },
+    "strainers:leaf_pile": {
+      "chance": 0.3
+    },
+    "opolisutilities:leafy_string": {
+      "chance": 0.1
+    },
+    "strainers:mulch": {
+      "chance": 0.9
+    },
+    "contained:organic_powder": {
+      "chance": 1.0
+    },
+    "contained:organic_powder_block": {
+      "chance": 1.0
+    }
+  }
+}

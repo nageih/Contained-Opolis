@@ -1,0 +1,72 @@
+{
+  "id": "colored_step_crafter_managers",
+  "name": {
+    "translate": "collapsible_groups.group.colored_step_crafter_managers",
+    "fallback": "Colored Step Crafter Managers"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "stepcrafter:yellow_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:lime_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:pink_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:gray_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:light_gray_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:cyan_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:purple_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:blue_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:brown_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:green_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:red_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:white_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:black_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:orange_step_crafter_manager"
+      },
+      {
+        "type": "item",
+        "id": "stepcrafter:magenta_step_crafter_manager"
+      }
+    ]
+  }
+}

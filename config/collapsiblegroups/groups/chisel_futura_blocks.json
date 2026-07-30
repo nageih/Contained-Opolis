@@ -1,0 +1,44 @@
+{
+  "id": "chisel_futura_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_futura_blocks",
+    "fallback": "Chisel: Futura Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_mysterious_cube"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_me_controller_ae_2"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_fabulously_wavy"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_purple_me_controller"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_rainbowliciously_wavy"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_cyan_screen"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_gray_screen"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:futura_me_controller"
+      }
+    ]
+  }
+}

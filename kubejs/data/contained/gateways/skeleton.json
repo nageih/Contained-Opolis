@@ -1,0 +1,65 @@
+{
+	"size": "medium",
+	"color": "#8C5E00",
+	"waves": [
+		{
+			"entities": [
+			{
+				"entity": "minecraft:skeleton",
+				"count": 5
+			}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 120
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:skeleton",
+				"count": 10
+			}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 40
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 120
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:skeleton",
+				"count": 10
+			}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 75
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 120
+		}
+	],
+    "rewards": [{
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:skeleton",
+            "rolls": 50
+        }
+    ],
+    "failures": [
+    ]
+}

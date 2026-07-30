@@ -1,0 +1,76 @@
+{
+  "id": "chisel_tyrian",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_tyrian",
+    "fallback": "Chisel: Tyrian"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_small_uneven_tiles"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_shiny_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_shiny_plate"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_rust"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_routes"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_purple_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_platform"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_opening"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_metal_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_disordered_purple_bits"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_disordered_metal_bits"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_diagonal_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_dent"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_blue_plates"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_black_strips"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:tyrian_black_scaled_plates"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chisel_lapis_lazuli_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_lapis_lazuli_blocks",
+    "fallback": "Chisel: Lapis Lazuli Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_zelda"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_wood_framed"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_tile"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_smooth"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_shiny_tile"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_panel"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_masonry"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_gold_encrusted"
+      },
+      {
+        "type": "item",
+        "id": "chisel_chipped_integration:gem_lapis_cobble"
+      }
+    ]
+  }
+}
