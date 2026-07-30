@@ -1,5 +1,7 @@
 {
   "type":"tipsmod:simple",
-  "text": "Contained has Shaders, options -> video setting -> shader packs!",
+  "text": {
+    "translate": "tip.shaders"
+  },
   "color": "white"
 }

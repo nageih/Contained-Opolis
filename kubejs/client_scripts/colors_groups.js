@@ -18,56 +18,60 @@ const stoneRoots = [
     "triple", "encased", "road", "asteroid"
 ];
 
-const typeGroups = {
-    "dirt": "Dirt",
-    "grass_block": "Grass Blocks",
-    "crafting_table": "Crafting Tables",
-    "tall_grass": "Tall Grass",
-    "short_grass": "Short Grass",
-    "poppy": "Poppies",
-    "dandelion": "Dandelions",
-    "leaves": "Leaves",
-    "sapling": "Saplings",
-    "apple": "Apples",
-    "spray_can": "Spray Cans"
-};
+const typeGroups = [
+    "dirt",
+    "grass_block",
+    "crafting_table",
+    "tall_grass",
+    "short_grass",
+    "poppy",
+    "dandelion",
+    "leaves",
+    "sapling",
+    "apple",
+    "spray_can"
+];
 
+/*
 function formatName(str) {
     return str.split('_')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 }
+*/
 
 RecipeViewerEvents.groupEntries('item', event => {
 
     // 1. Group by Colors
     colors.forEach(color => {
 
+        let colorText = Text.translate(`color.minecraft.${color}`);
+
         let woodFilters = woodRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(woodFilters, `contained:colors_${color}_wood`, `Colors: ${formatName(color)} Wood`);
+        event.group(woodFilters, `contained:colors_${color}_wood`, Text.translate('group.contained.colors.wood', colorText));
 
         let bambooFilters = bambooRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(bambooFilters, `contained:colors_${color}_bamboo`, `Colors: ${formatName(color)} Bamboo`);
+        event.group(bambooFilters, `contained:colors_${color}_bamboo`, Text.translate('group.contained.colors.bamboo', colorText));
 
         let stoneFilters = stoneRoots.map(root => {
             return { itemNamespace: 'colors', itemPathStartsWith: `${color}_${root}` };
         });
-        event.group(stoneFilters, `contained:colors_${color}_stone`, `Colors: ${formatName(color)} Stone`);
+        event.group(stoneFilters, `contained:colors_${color}_stone`, Text.translate('group.contained.colors.stone', colorText));
 
     });
 
     // 2. Group by Types
-    Object.keys(typeGroups).forEach(typeSuffix => {
+    typeGroups.forEach(typeSuffix => {
         event.group(
             { itemNamespace: 'colors', itemPathEndsWith: typeSuffix },
 
             `contained:colors_type_${typeSuffix}`,
 
-            `Colors: ${typeGroups[typeSuffix]}`
+            Text.translate(`group.contained.type.${typeSuffix}`)
         );
     });
 

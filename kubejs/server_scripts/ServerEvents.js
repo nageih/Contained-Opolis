@@ -15,7 +15,7 @@ ServerEvents.loaded(event => {
 BlockEvents.placed(event => {
 
   if (event.block.hasTag("contained:banned_in_space") && (event.level.dimension == "contained:space" || event.level.dimension == "contained:cindrath")) {
-    event.player.sendSystemMessage("You cannot place this block in space!");
+    event.player.sendSystemMessage(Text.translate("contained:space_warning"));
     event.cancel();
   }
 

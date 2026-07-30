@@ -1,5 +1,7 @@
 {
   "type":"tipsmod:simple",
-  "text": "Gaming on Caffeine didn't complete Techopolis 3! Can you?",
+  "text": {
+    "translate": "tip.goc_weak"
+  },
   "color": "white"
 }

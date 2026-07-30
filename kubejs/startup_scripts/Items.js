@@ -138,13 +138,13 @@ StartupEvents.registry('item', event => {
   event.create("contained:mysterious_powder").glow(true)
 
   //Food stuff
-  event.create("contained:asteroid_rocks").food(1, 0.5).tooltip("Crunchy!")
-  event.create("contained:roasted_rocks").food(3, 0.5).tooltip("Crunchy!")
+  event.create("contained:asteroid_rocks").food(1, 0.5).tooltip(Text.translate("tooltip.asteroid.rocks"))
+  event.create("contained:roasted_rocks").food(3, 0.5).tooltip(Text.translate("tooltip.roasted.rocks"))
   event.create("contained:stone_bowl")
   event.create("contained:goo_bowl_t1")
   .displayName("Primogel goo stew")
-  .tooltip("§9Haste I (5:00)")
-  .tooltip("§9Speed I (5:00)")
+  .tooltip(Text.translate("tooltip.goo.t11"))
+  .tooltip(Text.translate("tooltip.goo.t12"))
   .food(food => {
     food
       .nutrition(4)
@@ -161,7 +161,7 @@ StartupEvents.registry('item', event => {
   //Food stuff
   event.create("contained:rocky_soup")
   .displayName("Rocky Soup")
-  .tooltip("A Tasty Soup")
+  .tooltip(Text.translate("tooltip.rocky.soup"))
   .food(food => {
     food
       .nutrition(6)
@@ -173,9 +173,9 @@ StartupEvents.registry('item', event => {
 
   event.create("contained:goo_bowl_t2")
   .displayName("Blazebloom goo stew")
-  .tooltip("§9Haste II (5:00)")
-  .tooltip("§9Speed II (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
+  .tooltip(Text.translate("tooltip.goo.t21"))
+  .tooltip(Text.translate("tooltip.goo.t22"))
+  .tooltip(Text.translate("tooltip.goo.t23"))
   .food(food => {
     food
       .nutrition(9)
@@ -191,12 +191,12 @@ StartupEvents.registry('item', event => {
 
   event.create("contained:goo_bowl_t3")
   .displayName("Voidshimmer goo stew")
-  .tooltip("§9Haste III (5:00)")
-  .tooltip("§9Speed III (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
-  .tooltip("§9Night Vision (5:00)")
-  .tooltip("§9Resistance I (5:00)")
-  .tooltip("§9Strength I (5:00)")
+  .tooltip(Text.translate("tooltip.goo.t31"))
+  .tooltip(Text.translate("tooltip.goo.t32"))
+  .tooltip(Text.translate("tooltip.goo.t33"))
+  .tooltip(Text.translate("tooltip.goo.t34"))
+  .tooltip(Text.translate("tooltip.goo.t35"))
+  .tooltip(Text.translate("tooltip.goo.t36"))
   .food(food => {
     food
       .nutrition(15)
@@ -213,12 +213,12 @@ StartupEvents.registry('item', event => {
 
   event.create("contained:goo_bowl_t4")
   .displayName("Shadowpulse goo stew")
-  .tooltip("§9Haste IV (5:00)")
-  .tooltip("§9Speed IV (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
-  .tooltip("§9Night Vision (5:00)")
-  .tooltip("§9Resistance II (5:00)")
-  .tooltip("§9Strength II (5:00)")
+  .tooltip(Text.translate("tooltip.goo.t41"))
+  .tooltip(Text.translate("tooltip.goo.t42"))
+  .tooltip(Text.translate("tooltip.goo.t43"))
+  .tooltip(Text.translate("tooltip.goo.t44"))
+  .tooltip(Text.translate("tooltip.goo.t45"))
+  .tooltip(Text.translate("tooltip.goo.t46"))
   .food(food => {
     food
       .nutrition(20)

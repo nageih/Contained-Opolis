@@ -5,9 +5,11 @@ const xtonesTypes = [
     "zkul", "zoea", "zome", "zone", "zorg", "ztyl", "zyth"
 ];
 
+/*
 function formatXtonesName(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
+*/
 
 RecipeViewerEvents.groupEntries('item', event => {
     xtonesTypes.forEach(type => {
@@ -16,7 +18,7 @@ RecipeViewerEvents.groupEntries('item', event => {
 
             `contained:xtones_${type}`,
 
-            `Xtones: ${formatXtonesName(type)}`
+            Text.translate(`group.contained.xtones.${type}`)
         );
     });
 });

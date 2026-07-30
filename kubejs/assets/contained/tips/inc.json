@@ -1,5 +1,7 @@
 {
   "type":"tipsmod:simple",
-  "text": "Have you tried Opolis Inc?",
+  "text": {
+    "translate": "tip.inc"
+  },
   "color": "white"
 }

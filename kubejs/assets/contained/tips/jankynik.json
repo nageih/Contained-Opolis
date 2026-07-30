@@ -1,5 +1,7 @@
 {
   "type":"tipsmod:simple",
-  "text": "JANKY-(nik)-ness is encouraged! Thanks Neb",
+  "text": {
+    "translate": "tip.jankynik"
+  },
   "color": "white"
 }
