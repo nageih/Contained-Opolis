@@ -146,99 +146,99 @@ StartupEvents.registry('item', event => {
   event.create("contained:roasted_rocks").food(3, 0.5).tooltip(Text.translate("tooltip.roasted.rocks"))
   event.create("contained:stone_bowl")
   event.create("contained:goo_bowl_t1")
-  .displayName("Primogel goo stew")
-  .tooltip(Text.translate("tooltip.goo.t11"))
-  .tooltip(Text.translate("tooltip.goo.t12"))
-  .food(food => {
-    food
-      .nutrition(4)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 0, 1.0)
-      .effect("minecraft:speed", 300*20, 0, 1.0)
-      // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Primogel goo stew")
+    .tooltip(Text.translate("tooltip.goo.t11"))
+    .tooltip(Text.translate("tooltip.goo.t12"))
+    .food(food => {
+      food
+        .nutrition(4)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300*20, 0, 1.0)
+        .effect("minecraft:speed", 300*20, 0, 1.0)
+        // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   //Food stuff
   event.create("contained:rocky_soup")
-  .displayName("Rocky Soup")
-  .tooltip(Text.translate("tooltip.rocky.soup"))
-  .food(food => {
-    food
-      .nutrition(6)
-      .saturation(1)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Rocky Soup")
+    .tooltip(Text.translate("tooltip.rocky.soup"))
+    .food(food => {
+      food
+        .nutrition(6)
+        .saturation(1)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t2")
-  .displayName("Blazebloom goo stew")
-  .tooltip(Text.translate("tooltip.goo.t21"))
-  .tooltip(Text.translate("tooltip.goo.t22"))
-  .tooltip(Text.translate("tooltip.goo.t23"))
-  .food(food => {
-    food
-      .nutrition(9)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 1, 1.0)
-      .effect("minecraft:speed", 300*20, 1, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Blazebloom goo stew")
+    .tooltip(Text.translate("tooltip.goo.t21"))
+    .tooltip(Text.translate("tooltip.goo.t22"))
+    .tooltip(Text.translate("tooltip.goo.t23"))
+    .food(food => {
+      food
+        .nutrition(9)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300*20, 1, 1.0)
+        .effect("minecraft:speed", 300*20, 1, 1.0)
+        .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t3")
-  .displayName("Voidshimmer goo stew")
-  .tooltip(Text.translate("tooltip.goo.t31"))
-  .tooltip(Text.translate("tooltip.goo.t32"))
-  .tooltip(Text.translate("tooltip.goo.t33"))
-  .tooltip(Text.translate("tooltip.goo.t34"))
-  .tooltip(Text.translate("tooltip.goo.t35"))
-  .tooltip(Text.translate("tooltip.goo.t36"))
-  .food(food => {
-    food
-      .nutrition(15)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 2, 1.0)
-      .effect("minecraft:speed", 300*20, 2, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .effect("minecraft:night_vision", 300*20, 0, 1.0)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Voidshimmer goo stew")
+    .tooltip(Text.translate("tooltip.goo.t31"))
+    .tooltip(Text.translate("tooltip.goo.t32"))
+    .tooltip(Text.translate("tooltip.goo.t33"))
+    .tooltip(Text.translate("tooltip.goo.t34"))
+    .tooltip(Text.translate("tooltip.goo.t35"))
+    .tooltip(Text.translate("tooltip.goo.t36"))
+    .food(food => {
+      food
+        .nutrition(15)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300*20, 2, 1.0)
+        .effect("minecraft:speed", 300*20, 2, 1.0)
+        .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
+        .effect("minecraft:night_vision", 300*20, 0, 1.0)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t4")
-  .displayName("Shadowpulse goo stew")
-  .tooltip(Text.translate("tooltip.goo.t41"))
-  .tooltip(Text.translate("tooltip.goo.t42"))
-  .tooltip(Text.translate("tooltip.goo.t43"))
-  .tooltip(Text.translate("tooltip.goo.t44"))
-  .tooltip(Text.translate("tooltip.goo.t45"))
-  .tooltip(Text.translate("tooltip.goo.t46"))
-  .food(food => {
-    food
-      .nutrition(20)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 3, 1.0)
-      .effect("minecraft:speed", 300*20, 3, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .effect("minecraft:night_vision", 300*20, 0, 1.0)
-      .effect("minecraft:resistance", 300*20, 1, 1.0)
-      .effect("minecraft:strength", 300*20, 1, 1.0)
-      // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Shadowpulse goo stew")
+    .tooltip(Text.translate("tooltip.goo.t41"))
+    .tooltip(Text.translate("tooltip.goo.t42"))
+    .tooltip(Text.translate("tooltip.goo.t43"))
+    .tooltip(Text.translate("tooltip.goo.t44"))
+    .tooltip(Text.translate("tooltip.goo.t45"))
+    .tooltip(Text.translate("tooltip.goo.t46"))
+    .food(food => {
+      food
+        .nutrition(20)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300*20, 3, 1.0)
+        .effect("minecraft:speed", 300*20, 3, 1.0)
+        .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
+        .effect("minecraft:night_vision", 300*20, 0, 1.0)
+        .effect("minecraft:resistance", 300*20, 1, 1.0)
+        .effect("minecraft:strength", 300*20, 1, 1.0)
+        // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   //Infinity Drives
   event.create("contained:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")
