@@ -7,8 +7,14 @@
 		id: "contained:primal_steel_ingot"
 	}
 	id: "107AF6D9D1243946"
+	images: [ ]
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "0439E8453824B505"
+		linked_quest: "79CB2F23503A6C71"
+		x: 2.5d
+		y: -1.5d
+	}]
 	quests: [
 		{
 			dependencies: ["5A1BB6D84C9E84AB"]
@@ -227,7 +233,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["749763425AE50803"]
+			dependencies: [
+				"749763425AE50803"
+				"79CB2F23503A6C71"
+			]
 			id: "0F5CA9279703B5D3"
 			rewards: [{
 				id: "03E927B611AD6705"
@@ -242,11 +251,14 @@
 				item: { count: 1, id: "pipez:energy_pipe" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 1.6309523809523938d
+			y: -0.1428571428571459d
 		}
 		{
-			dependencies: ["749763425AE50803"]
+			dependencies: [
+				"749763425AE50803"
+				"79CB2F23503A6C71"
+			]
 			id: "5D22CFC8708C5CAE"
 			rewards: [{
 				id: "1A1DFB2E65B56A44"
@@ -261,8 +273,8 @@
 				item: { count: 1, id: "pipez:item_pipe" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 1.1071428571428754d
+			y: -0.8809523809523796d
 		}
 		{
 			dependencies: ["6E288A883EF32AED"]
@@ -337,8 +349,8 @@
 				item: { count: 1, id: "justdirethings:blockbreakert2" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 }

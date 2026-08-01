@@ -1,0 +1,9 @@
+[timescale]
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	day_scale = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	night_scale = 0.1
+	overworld_only = false
+	force_freeze_gamerule = false

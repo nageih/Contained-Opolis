@@ -7,6 +7,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'casting:mixer_whisk' })
     event.remove({ id: 'casting:melting/quartz/from_dust' })
     event.remove({ id: 'casting:melting/diamond/from_dust' })
+    event.remove({ id: 'casting:mixer/fluix' })
+    event.remove({ id: 'casting:solidifier/fluix/crystal' })
+    event.remove({ id: 'casting:solidifier/fluix/block' })
 
     //Replace Inputs
     event.replaceInput({ id: 'casting:solidifier/multiblock/mixer' }, 'casting:mixer', 'casting:multiblock_valve')

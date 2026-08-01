@@ -1,3 +1,6 @@
+//priority: 10
+
+
 Platform.getInfo('contained').name = 'Contained'
 
 StartupEvents.registry('item', event => {
@@ -96,7 +99,7 @@ StartupEvents.registry('item', event => {
   event.create("contained:catalog").tag('shops:catalogs').texture("minecraft:item/enchanted_book").maxStackSize(1)
 
   //Resources
-  event.create("contained:primal_steel_ingot").tag("c:ingots/primal_steel").tag("c:ingots") 
+  event.create("contained:primal_steel_ingot").tag("c:ingots/primal_steel").tag("c:ingots")
   event.create("contained:primal_steel_nugget").tag("c:nuggets/primal_steel").tag("c:nuggets")
   event.create("contained:primal_steel_dust").tag("c:dusts/primal_steel").tag("c:dusts")
   event.create("contained:obsidian_dust").tag("c:dusts/obsidian").tag("c:dusts")
@@ -126,6 +129,7 @@ StartupEvents.registry('item', event => {
   event.create("contained:crystalline_quartz").tag("c:gems/crystalline").tag("c:gems")
   event.create("contained:ancient_ashes").tag("c:dusts")
   event.create("contained:ancient_ingot").tag("c:ingots")
+
 
   //Asteroid Dust
   colors.forEach(color => {
@@ -235,14 +239,21 @@ StartupEvents.registry('item', event => {
         ctx.player.give(Item.of("contained:stone_bowl", 1))
       })
   })
+
+  //Infinity Drives
+  event.create("contained:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")
+  event.create("contained:infinity_gravel_drive", 'infinity_drive').infinityStack("minecraft:gravel")
+  event.create("contained:infinity_dirt_drive", 'infinity_drive').infinityStack("minecraft:dirt")
+  event.create("contained:infinity_stone_drive", 'infinity_drive').infinityStack("minecraft:stone")
+
 })
 
 
 StartupEvents.registry('armor_material', event => {
 
-  event.create('contained:space_suit').defense({"boots": 0, "leggings": 1, "chestplate": 1, "helmet": 0, "body": 1})
-  event.create('contained:ferricore_space_suit').defense({"boots": 1, "leggings": 3, "chestplate": 4, "helmet": 2, "body": 4})
-  event.create('contained:blazegold_space_suit').defense({"boots": 2, "leggings": 4, "chestplate": 5, "helmet": 3, "body": 5})
-  event.create('contained:celestigem_space_suit').defense({"boots": 4, "leggings": 5, "chestplate": 7, "helmet": 5, "body": 5})
+  event.create('contained:space_suit').defense({ "boots": 0, "leggings": 1, "chestplate": 1, "helmet": 0, "body": 1 })
+  event.create('contained:ferricore_space_suit').defense({ "boots": 1, "leggings": 3, "chestplate": 4, "helmet": 2, "body": 4 })
+  event.create('contained:blazegold_space_suit').defense({ "boots": 2, "leggings": 4, "chestplate": 5, "helmet": 3, "body": 5 })
+  event.create('contained:celestigem_space_suit').defense({ "boots": 4, "leggings": 5, "chestplate": 7, "helmet": 5, "body": 5 })
 
 })

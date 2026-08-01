@@ -7,6 +7,7 @@
 		id: "powah:dielectric_paste"
 	}
 	id: "61A8E3E98712FA92"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -444,6 +445,65 @@
 			}]
 			x: -1.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["681EEB3871A298FB"]
+			id: "56ADD238063379B9"
+			rewards: [{
+				id: "7F748F773A4E20F0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4822E2838E1F74D5"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56ADD238063379B9"]
+			id: "4085636DB49BD568"
+			optional: true
+			rewards: [{
+				id: "497455ECF7B0C8A7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "016E837B56BC3360"
+				item: { count: 1, id: "oritechthings:addon_block_speed_tier_2" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56ADD238063379B9"]
+			id: "4EB60E2E256C5BA8"
+			optional: true
+			rewards: [{
+				id: "26801FBA58E3EC06"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C16353EE3776486"
+				item: { count: 1, id: "oritechthings:addon_block_efficiency_tier_2" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
 		}
 	]
 }

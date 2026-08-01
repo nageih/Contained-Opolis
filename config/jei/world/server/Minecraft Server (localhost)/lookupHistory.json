@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"strainers:mulch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"explorerscompass:explorerscompass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

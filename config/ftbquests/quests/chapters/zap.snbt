@@ -7,6 +7,7 @@
 		id: "oritech:laser_arm_block"
 	}
 	id: "4114E4895BEB3B6A"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -30,7 +31,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["20B884AA060A8598"]
+			dependencies: [
+				"20B884AA060A8598"
+				"1CABC2D05C7F4C21"
+			]
+			dependency_requirement: "one_completed"
 			id: "0B90F922BE762307"
 			rewards: [{
 				id: "2E946983ACE241DB"
@@ -388,6 +393,26 @@
 			}]
 			x: -2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["20B884AA060A8598"]
+			id: "1CABC2D05C7F4C21"
+			optional: true
+			rewards: [{
+				id: "7383CCACAD4BF0F3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A6D7B5F71778617"
+				item: { count: 1, id: "oritech:machine_yield_addon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 }

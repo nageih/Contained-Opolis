@@ -26,9 +26,9 @@ LootJS.modifiers(event => {
     event.addBlockModifier("minecraft:sculk_shrieker").removeLoot('*')
 
     //Certus Crystals
-    event.addBlockModifier("ae2:small_quartz_bud").removeLoot('*')
-    event.addBlockModifier("ae2:medium_quartz_bud").removeLoot('*')
-    event.addBlockModifier("ae2:large_quartz_bud").removeLoot('*')
+    event.addBlockModifier("ae2:small_quartz_bud").removeLoot('ae2:certus_quartz_dust')
+    event.addBlockModifier("ae2:medium_quartz_bud").removeLoot('ae2:certus_quartz_dust')
+    event.addBlockModifier("ae2:large_quartz_bud").removeLoot('ae2:certus_quartz_dust')
 
     //Magma Cube
     event.addEntityModifier("minecraft:magma_cube").addLoot("minecraft:magma_cream")

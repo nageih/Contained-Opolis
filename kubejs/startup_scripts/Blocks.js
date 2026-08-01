@@ -1,3 +1,4 @@
+//priority: 1000
 StartupEvents.registry('block', event => {
 
     //Awakened Draconium Lock
@@ -42,7 +43,7 @@ StartupEvents.registry('block', event => {
         .hardness(1.2)
         .tagBlock("minecraft:mineable/shovel")
         .sandSoundType()
-    
+
     //Organic Powder Block
     event.create("contained:organic_powder_block")
         .hardness(0.5)
@@ -60,7 +61,7 @@ StartupEvents.registry('block', event => {
         .hardness(5)
         .tagBlock("minecraft:mineable/pickaxe")
         .soundType("stone")
-    
+
     //Cindrath Portal Frame
     event.create("contained:cindrath_portal_frame")
         .hardness(5)
@@ -97,19 +98,18 @@ StartupEvents.registry('block', event => {
         .soundType("amethyst")
         .tagBlock("oritech:resource_nodes")
 
-
     //Crystalline quartz deposit
     event.create("contained:crystalline_deposit")
         .unbreakable()
         .soundType("amethyst")
         .tagBlock("oritech:resource_nodes")
-        
+
     //Ancient ashes deposit
     event.create("contained:ancient_ashes_deposit")
         .unbreakable()
         .soundType("amethyst")
         .tagBlock("oritech:resource_nodes")
-    
+
     //Ancient Ingot Block
     event.create("contained:ancient_ingot_block")
         .hardness(5)
