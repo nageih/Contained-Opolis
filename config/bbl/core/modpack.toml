@@ -13,10 +13,10 @@
 	#Modpack name
 	"Modpack name" = "Contained"
 	#Modpack Version
-	"Modpack Version" = "5.1"
+	"Modpack Version" = "5.2"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
-	"Update Checker" = false
+	"Update Checker" = true
 	#Project ID for the modpack, found on curse forge
-	"Project ID" = 0
+	"Project ID" = 1285125

@@ -69,11 +69,67 @@ ServerEvents.tags("item", event => {
     //Glass
     event.get('c:glass_blocks').remove('ae2:quartz_vibrant_glass', 'ae2:quartz_glass')
 
-    //Banned From Coloring
-    event.get('bblcore:banned_from_coloring').add(['colors:black_asteroid', 'colors:blue_asteroid', 'colors:brown_asteroid', 'colors:cyan_asteroid', 'colors:gray_asteroid', 'colors:green_asteroid', 'colors:light_blue_asteroid', 'colors:light_gray_asteroid', 'colors:lime_asteroid', 'colors:magenta_asteroid', 'colors:orange_asteroid', 'colors:pink_asteroid', 'colors:purple_asteroid', 'colors:red_asteroid', 'colors:white_asteroid', 'colors:yellow_asteroid', 'contained:mysterious_red_asteroid', 'contained:mysterious_green_asteroid', 'contained:mysterious_blue_asteroid', 'contained:mysterious_yellow_asteroid', 'contained:mysterious_purple_asteroid', 'contained:mysterious_light_gray_asteroid', 'contained:mysterious_gray_asteroid', 'contained:mysterious_pink_asteroid', 'contained:mysterious_lime_asteroid', 'contained:mysterious_light_blue_asteroid', 'contained:mysterious_magenta_asteroid', 'contained:mysterious_orange_asteroid', 'contained:mysterious_white_asteroid', 'contained:mysterious_cyan_asteroid', 'contained:mysterious_black_asteroid', 'contained:mysterious_brown_asteroid'])
-
     //Paxels
     event.get('c:tools/paxel').add(['mysticalagradditions:inferium_paxel', 'mysticalagradditions:prudentium_paxel', 'mysticalagradditions:tertium_paxel', 'mysticalagradditions:tertium_paxel', 'mysticalagradditions:imperium_paxel', 'mysticalagradditions:supremium_paxel', 'mysticalagradditions:awakened_supremium_paxel'])
+
+    //Banned From Coloring
+    event
+        .get("bblcore:banned_from_coloring")
+        .add([
+            "colors:black_asteroid",
+            "colors:blue_asteroid",
+            "colors:brown_asteroid",
+            "colors:cyan_asteroid",
+            "colors:gray_asteroid",
+            "colors:green_asteroid",
+            "colors:light_blue_asteroid",
+            "colors:light_gray_asteroid",
+            "colors:lime_asteroid",
+            "colors:magenta_asteroid",
+            "colors:orange_asteroid",
+            "colors:pink_asteroid",
+            "colors:purple_asteroid",
+            "colors:red_asteroid",
+            "colors:white_asteroid",
+            "colors:yellow_asteroid",
+            "contained:mysterious_red_asteroid",
+            "contained:mysterious_green_asteroid",
+            "contained:mysterious_blue_asteroid",
+            "contained:mysterious_yellow_asteroid",
+            "contained:mysterious_purple_asteroid",
+            "contained:mysterious_light_gray_asteroid",
+            "contained:mysterious_gray_asteroid",
+            "contained:mysterious_pink_asteroid",
+            "contained:mysterious_lime_asteroid",
+            "contained:mysterious_light_blue_asteroid",
+            "contained:mysterious_magenta_asteroid",
+            "contained:mysterious_orange_asteroid",
+            "contained:mysterious_white_asteroid",
+            "contained:mysterious_cyan_asteroid",
+            "contained:mysterious_black_asteroid",
+            "contained:mysterious_brown_asteroid",
+            "colors:black_asteroid_slab",
+            "colors:blue_asteroid_slab",
+            "colors:brown_asteroid_slab",
+            "colors:cyan_asteroid_slab",
+            "colors:gray_asteroid_slab",
+            "colors:green_asteroid_slab",
+            "colors:light_blue_asteroid_slab",
+            "colors:light_gray_asteroid_slab",
+            "colors:lime_asteroid_slab",
+            "colors:magenta_asteroid_slab",
+            "colors:orange_asteroid_slab",
+            "colors:pink_asteroid_slab",
+            "colors:purple_asteroid_slab",
+            "colors:red_asteroid_slab",
+            "colors:white_asteroid_slab",
+            "colors:yellow_asteroid_slab",
+        ]);
+
+    event.add('pipe_connector:placeable_items', [
+        'integrateddynamics:cable'
+    ])
+
 
 })
 
@@ -97,10 +153,75 @@ ServerEvents.tags("block", event => {
     //Wither Immune
     event.get('minecraft:wither_immune').add("@roomopolis", "contained:unbreakable_glass")
 
-    //Banned From Coloring
-    event.get('bblcore:banned_from_coloring').add(['colors:black_asteroid', 'colors:blue_asteroid', 'colors:brown_asteroid', 'colors:cyan_asteroid', 'colors:gray_asteroid', 'colors:green_asteroid', 'colors:light_blue_asteroid', 'colors:light_gray_asteroid', 'colors:lime_asteroid', 'colors:magenta_asteroid', 'colors:orange_asteroid', 'colors:pink_asteroid', 'colors:purple_asteroid', 'colors:red_asteroid', 'colors:white_asteroid', 'colors:yellow_asteroid', 'contained:mysterious_red_asteroid', 'contained:mysterious_green_asteroid', 'contained:mysterious_blue_asteroid', 'contained:mysterious_yellow_asteroid', 'contained:mysterious_purple_asteroid', 'contained:mysterious_light_gray_asteroid', 'contained:mysterious_gray_asteroid', 'contained:mysterious_pink_asteroid', 'contained:mysterious_lime_asteroid', 'contained:mysterious_light_blue_asteroid', 'contained:mysterious_magenta_asteroid', 'contained:mysterious_orange_asteroid', 'contained:mysterious_white_asteroid', 'contained:mysterious_cyan_asteroid', 'contained:mysterious_black_asteroid', 'contained:mysterious_brown_asteroid'])
-
+    //Smart Crafting Table Whitelist
     event.add('smartcrafting:whitelisted_storage', ["@ironchest", "@functionalstorage"])
+
+    //Banned From Coloring
+    event
+        .get("bblcore:banned_from_coloring")
+        .add([
+            "colors:black_asteroid",
+            "colors:blue_asteroid",
+            "colors:brown_asteroid",
+            "colors:cyan_asteroid",
+            "colors:gray_asteroid",
+            "colors:green_asteroid",
+            "colors:light_blue_asteroid",
+            "colors:light_gray_asteroid",
+            "colors:lime_asteroid",
+            "colors:magenta_asteroid",
+            "colors:orange_asteroid",
+            "colors:pink_asteroid",
+            "colors:purple_asteroid",
+            "colors:red_asteroid",
+            "colors:white_asteroid",
+            "colors:yellow_asteroid",
+            "contained:mysterious_red_asteroid",
+            "contained:mysterious_green_asteroid",
+            "contained:mysterious_blue_asteroid",
+            "contained:mysterious_yellow_asteroid",
+            "contained:mysterious_purple_asteroid",
+            "contained:mysterious_light_gray_asteroid",
+            "contained:mysterious_gray_asteroid",
+            "contained:mysterious_pink_asteroid",
+            "contained:mysterious_lime_asteroid",
+            "contained:mysterious_light_blue_asteroid",
+            "contained:mysterious_magenta_asteroid",
+            "contained:mysterious_orange_asteroid",
+            "contained:mysterious_white_asteroid",
+            "contained:mysterious_cyan_asteroid",
+            "contained:mysterious_black_asteroid",
+            "contained:mysterious_brown_asteroid",
+            "colors:black_asteroid_slab",
+            "colors:blue_asteroid_slab",
+            "colors:brown_asteroid_slab",
+            "colors:cyan_asteroid_slab",
+            "colors:gray_asteroid_slab",
+            "colors:green_asteroid_slab",
+            "colors:light_blue_asteroid_slab",
+            "colors:light_gray_asteroid_slab",
+            "colors:lime_asteroid_slab",
+            "colors:magenta_asteroid_slab",
+            "colors:orange_asteroid_slab",
+            "colors:pink_asteroid_slab",
+            "colors:purple_asteroid_slab",
+            "colors:red_asteroid_slab",
+            "colors:white_asteroid_slab",
+            "colors:yellow_asteroid_slab",
+        ]);
+
+    event.add('ae2:blacklisted/annihilation_plane', [
+        'ae2:small_quartz_bud',
+        'ae2:medium_quartz_bud',
+        'ae2:large_quartz_bud',
+        'minecraft:small_amethyst_bud',
+        'minecraft:medium_amethyst_bud',
+        'minecraft:large_amethyst_bud',
+    ])
+
+    event.add('pipe_connector:pipe_block', [
+        'integrateddynamics:cable'
+    ])
 
 })
 

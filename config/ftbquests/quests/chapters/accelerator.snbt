@@ -8,9 +8,9 @@
 	}
 	id: "7E89B0530E4D5277"
 	images: [{
-		click: "https://www.youtube.com/watch?v=92hhdzjYrp0"
+		click_action: "open_uri:https://www.youtube.com/watch?v=92hhdzjYrp0"
 		height: 6.0d
-		hover: ["Click For a YouTube Video"]
+		id: "02E541E3EA5749DF"
 		image: "contained:textures/quests/particle_accelerator.png"
 		rotation: 0.0d
 		width: 9.0d

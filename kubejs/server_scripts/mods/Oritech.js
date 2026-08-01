@@ -2,9 +2,6 @@
 
 ServerEvents.recipes(event => {
 
-  //Replace Input
-  event.replaceInput({ id: 'oritech:crafting/particlecontroller' }, 'minecraft:dropper', 'draconicevolution:chaotic_core')
-
   //Fluid Addon
   event.shaped('oritech:machine_fluid_addon', [' A ', 'ABA', ' A '], { A: 'minecraft:lapis_lazuli', B: 'oritech:machine_core_1', }).id('oritech:crafting/addon/fluid')
 
@@ -18,32 +15,39 @@ ServerEvents.recipes(event => {
   event.shaped('oritech:powered_furnace_block', ['AAA', 'ABA', 'CDC'], { A: '#contained:steel_ingots', B: 'minecraft:blast_furnace', C: 'oritech:magnetic_coil', D: 'powah:magmator_starter' }).id('contained:powered_furnace')
 
   //Remove Recipes
-  event.remove({ id: 'oritech:foundry/alloy/electrum' })
-  event.remove({ id: 'oritech:foundry/alloy/inverse/electrum' })
-  event.remove({ id: 'oritech:crafting/alloy/electrum' })
+  event.remove({ id: 'oritech:assembler/enderlens' })
+  event.remove({ id: `oritech:assembler/compat/geore/buddingancient_debris` })
+  event.remove({ id: `oritech:assembler/compat/geore/buddingblack_quartz` })
+  event.remove({ id: 'oritech:crafting/pulverizer' })
   event.remove({ id: 'oritech:crafting/alloy/adamant' })
-  event.remove({ id: 'oritech:laser/fluxite' })
-  // event.remove({id: 'oritech:particle/'})
-  event.remove({ id: 'oritech:centrifuge/endericsculk' })
+  event.remove({ id: 'oritech:crafting/alloy/electrum' })
+  event.remove({ id: 'oritech:crafting/electricfurnace' })
+  event.remove({ id: 'oritech:crafting/electricfurnacealt' })
+  event.remove({ id: 'oritech:grinder/coal' })
   event.remove({ id: 'oritech:grinder/stone_enderic' })
   event.remove({ id: 'oritech:grinder/pearl_enderic' })
+  event.remove({ id: 'oritech:grinder/compat/geore/quartzdust' })
+  event.remove({ id: 'oritech:foundry/alloy/inverse/electrum' })
+  event.remove({ id: 'oritech:foundry/alloy/electrum' })
+  event.remove({ id: 'oritech:pulverizer/coal' })
   event.remove({ id: 'oritech:pulverizer/pearl_enderic' })
-  event.remove({ id: 'oritech:assembler/enderlens' })
+  event.remove({ id: 'oritech:pulverizer/compat/geore/quartzdust' })
+  event.remove({ id: 'oritech:centrifuge/endericsculk' })
   event.remove({ id: 'oritech:centrifuge/fluid/biopolymer_biomass' })
   event.remove({ id: 'oritech:centrifuge/fluid/biopolymer_bioblock' })
   event.remove({ id: 'oritech:centrifuge/fluid/plasticoil' })
   event.remove({ id: 'oritech:centrifuge/fluid/plasticoilbetter' })
   event.remove({ id: 'oritech:centrifuge/fluid/clay' })
+  event.remove({ id: 'oritech:centrifuge/compat/ae2/endericcompound' })
+  event.remove({ id: 'oritech:laser/fluxite' })
   event.remove({ id: 'oritech:laser/compat/ae2/chargedquartz' })
+  event.remove({ id: `oritech:laser/compat/geore/plutoniumdust` })
+  event.remove({ id: `oritech:laser/plutoniumdust` })
   event.remove({ id: 'oritech:compat/powah/energizing/fluxite' })
-  event.remove({ id: 'oritech:crafting/electricfurnacealt' })
-  event.remove({ id: 'oritech:crafting/electricfurnace' })
-  event.remove({ id: 'oritech:pulverizer/coal' })
-  event.remove({ id: 'oritech:grinder/coal' })
-  event.remove({ id: 'oritech:particle/netherite' })
+  event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
+  event.remove({ id: 'oritech:compat/powah/energizing/uranite' })
+  event.remove({ id: 'oritech:silicon_from_smelting_raw_silicon' })
   event.remove({ id: 'oritech:particle/diamond' })
-  event.remove({ id: 'oritech:particle/plutonium' })
-  event.remove({ id: 'oritech:crafting/pulverizer' })
 
   //Replace Recipes
   event.replaceInput({ id: 'oritech:crafting/laserarm' }, '#c:ingots/electrum', 'oritech:processing_unit')
@@ -54,6 +58,9 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'oritech:crafting/stank' }, 'oritech:fluid_pipe', 'pipez:fluid_pipe')
   event.replaceInput({ id: 'oritech:crafting/crusher' }, 'oritech:flux_gate', '#contained:shard_blocks')
   event.replaceInput({ id: 'oritech:crafting/pump' }, 'oritech:silicon', 'minecraft:iron_ingot')
+  event.replaceInput({ id: 'oritech:crafting/particlecontroller' }, 'minecraft:dropper', 'draconicevolution:chaotic_core')
+  event.replaceInput({ id: 'oritech:crafting/extender' }, 'oritech:duratium_ingot', 'powah:steel_energized')
+
 
   //Fragement Recipes
   addFragmentRecipe('contained:impressional_gem', 'minecraft:amethyst_block', 3, 60)

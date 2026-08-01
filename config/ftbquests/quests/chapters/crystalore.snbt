@@ -7,6 +7,7 @@
 		id: "contained:crystalore_portal_frame"
 	}
 	id: "360C848444F1C0C7"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -762,6 +763,7 @@
 		{
 			dependencies: ["54E9E83B9A9D365C"]
 			id: "3C6993A9C4C531E1"
+			optional: true
 			rewards: [{
 				id: "0B57C9EF123BEDC9"
 				item: {
@@ -781,6 +783,7 @@
 		{
 			dependencies: ["3C6993A9C4C531E1"]
 			id: "7C87D1595B7529F5"
+			optional: true
 			rewards: [{
 				id: "094B709C92F8276E"
 				item: {

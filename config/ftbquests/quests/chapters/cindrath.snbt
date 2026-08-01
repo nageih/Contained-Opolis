@@ -7,6 +7,7 @@
 		id: "contained:cindrath_portal_frame"
 	}
 	id: "1E7E24383BA36A0C"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -333,8 +334,8 @@
 				item: { count: 1, id: "minecraft:magma_cream" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5314D5E924AD2BA4"]
@@ -401,7 +402,7 @@
 				}
 			]
 			x: 0.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A9933876E170AC8"]
@@ -456,19 +457,27 @@
 				}
 			]
 			x: -0.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3E5F35337995992C"]
 			id: "6C11E5C343F27B6A"
 			optional: true
+			rewards: [{
+				id: "435579A4140891E2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B79274B5E8A2D45"
 				item: { count: 1, id: "minecraft:slime_ball" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2F62BECBD7D9C69A"]
@@ -552,6 +561,14 @@
 		{
 			dependencies: ["34F1A19FCCA5E003"]
 			id: "0B6186587160751B"
+			rewards: [{
+				id: "3951F185168D21EE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "78752D567462F5BD"
 				item: { count: 1, id: "pipe_connector:pipe_connector" }
@@ -559,6 +576,26 @@
 			}]
 			x: -2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5AD6B428EE43837B"]
+			id: "4340D84C0B477200"
+			optional: true
+			rewards: [{
+				id: "26766FE2B77B116B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02D3F144936642DE"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 }

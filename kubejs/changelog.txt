@@ -7,6 +7,31 @@ Contained
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Contained Opolis 5.2
+
+### Changes
+- Fixed Integrated Dynamics Crafting getting stuck on Calculating Crafting Plan
+- Now Blazejet Wand accept unbreaking modifier
+- Added BBL Fixes to fix spray can being used up when used to dye Ender Storage blocks
+- Graves can be picked up by shifting on them
+- Removed the ME Infinity Cobblestone and Water Cells because Infinity Storage was added
+- Reverted fixed time because Solar Cooker didn't work if the time was fixed unless a Reflective Glass was used and nighttime looks pretty great with shaders on
+- Now again you can sleep in beds, and they're not going to explode
+- Day Night Cycle also turned back on
+- Changed the Fluix Crystal recipe inside the Crystal Assembler to match the one inside the Inscriber
+- Removed the Ender Dust to Enderic Compound recipe
+- Restored Sky Stone Essence and Deepslate essence recipes
+- Removed Fluxite tooltip since that way of getting Fluxite was removed
+- Removed not needed Silicon recipes
+- Added back the Plutonium Dust and Netherite Scrap recipe via the Particle Accelerator
+- Upped the Pipez Item amount from 4 to 8 for the Basic Pipe Upgrade, 16 for the Advanced Pipe Upgrade and 64 for the Ultimate Pipe Upgrade
+- Disabled Amethyst Fish spawning from Infested Amethyst Blocks
+- Spray Cans can't be used on Asteroid Slabs to stop a tier skip
+- Made the Machine Extender cheaper
+- Added Oritech Addons to the quests
+- Annhilation Plane now correctly not break not fully grown Certus Quartz Buds and Amethyst Buds
+- Integrated Dynamics Logic Cable now works with the Pipe Connector
+
 # Contained Opolis 5.1
 
 ### Changes

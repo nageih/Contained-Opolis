@@ -7,6 +7,7 @@
 		id: "oritech:fluxite"
 	}
 	id: "7E5CEEDD426F8948"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -26,7 +27,7 @@
 				item: { count: 1, id: "oritech:fluxite" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -45,7 +46,7 @@
 				item: { count: 1, id: "minecraft:sculk" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -64,7 +65,7 @@
 				item: { count: 1, id: "opolisutilities:ender_pearl_fragment" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -83,7 +84,7 @@
 				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
@@ -102,7 +103,7 @@
 				item: { count: 1, id: "oritech:energite_ingot" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -125,7 +126,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -144,7 +145,7 @@
 				item: { count: 1, id: "minecraft:sculk_catalyst" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -163,7 +164,7 @@
 				item: { count: 1, id: "powah:reactor_starter" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -182,7 +183,7 @@
 				item: { count: 1, id: "geore:uraninite_block" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -201,7 +202,7 @@
 				item: { count: 1, id: "contained:sculk_collector" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -226,7 +227,7 @@
 				to_observe: "justdirethings:raw_celestigem_ore"
 				type: "observation"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -245,7 +246,7 @@
 				item: { count: 1, id: "justdirethings:celestigem" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -264,7 +265,7 @@
 				item: { count: 1, id: "justdirethings:template_celestigem" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -274,7 +275,7 @@
 				id: "053AAC036F28B2EC"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "shops:iron_coin"
 				}
 				type: "item"
 			}]
@@ -283,7 +284,7 @@
 				item: { count: 1, id: "contained:wardens_heart" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -303,7 +304,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -317,12 +318,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "447B0DAB7F3BBC81"
-				item: { count: 1, id: "contained:budding_heart" }
-				type: "item"
-			}]
-			x: -3.0d
+			tasks: [
+				{
+					id: "447B0DAB7F3BBC81"
+					item: { count: 1, id: "contained:budding_heart" }
+					type: "item"
+				}
+				{
+					id: "6FB261E2A01DF8DE"
+					observation_type: "block_tag"
+					observe_type: 1
+					timer: 0L
+					to_observe: "c:budding_blocks"
+					type: "observation"
+				}
+			]
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -347,7 +358,7 @@
 				to_observe: "geore:budding_uraninite"
 				type: "observation"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -366,7 +377,7 @@
 				item: { count: 1, id: "geore:uraninite_shard" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -385,7 +396,7 @@
 				item: { count: 1, id: "contained:small_uraninite_dust" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -404,7 +415,7 @@
 				item: { count: 1, id: "contained:uraninite_dust" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -423,12 +434,13 @@
 				item: { count: 1, id: "powah:uraninite" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["659B46412BD87214"]
 			id: "1E5A0208ED9D953D"
+			optional: true
 			rewards: [{
 				id: "37A5A6D98208E83D"
 				item: {
@@ -442,12 +454,13 @@
 				item: { count: 1, id: "growthacceleratortiers:boosted_growth_accelerator" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["659B46412BD87214"]
 			id: "29807525BF290DC3"
+			optional: true
 			rewards: [{
 				id: "2EA24916E9538608"
 				item: {
@@ -461,8 +474,48 @@
 				item: { count: 1, id: "growthacceleratortiers:directional_growth_accelerator" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4F686F5903EDB884"]
+			id: "279B37E39C0408C9"
+			optional: true
+			rewards: [{
+				id: "040743FEA6A473F1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C8C6A6AC3612160"
+				item: { count: 1, id: "oritech:machine_capacitor_addon" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F686F5903EDB884"]
+			id: "471E64532CEC2EB3"
+			optional: true
+			rewards: [{
+				id: "0E33EDEFBFA73118"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D49D0C93C61168A"
+				item: { count: 1, id: "oritech:machine_acceptor_addon" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
 		}
 	]
 }

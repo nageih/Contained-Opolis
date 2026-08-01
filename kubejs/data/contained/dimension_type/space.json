@@ -1,6 +1,6 @@
 {
   "ambient_light": 0.6,
-  "bed_works": false,
+  "bed_works": true,
   "coordinate_scale": 1,
   "effects": "minecraft:overworld",
   "has_ceiling": false,
@@ -19,6 +19,5 @@
   "natural": true,
   "piglin_safe": false,
   "respawn_anchor_works": false,
-  "fixed_time": 6000,
   "ultrawarm": true
 }

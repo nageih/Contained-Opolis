@@ -13,6 +13,7 @@
 		"blazeKey|Blaze Key =UNBREAKING;contained:blaze_key",
 		"hammers|Hammers =UNBREAKING;#contained:hammers",
 		"moddedPaxels|Modded Paxels =EQUIPMENT_LEVEL,TELEPORTING,EXCAVATION,EFFICIENCY,UNBREAKING,FORTUNE,REPAIRING,SILK_TOUCH,TORCH_PLACING,AUTO_SMELT,SOULBOUND;#c:tools/paxel",
-		"constructionSticks|Construction Sticks =UNBREAKING;#constructionstick:construction_sticks"
+		"constructionSticks|Construction Sticks =UNBREAKING;#constructionstick:construction_sticks",
+		"blazejetWand| BlazeJet Wand =UNBREAKING;justdirethings:blazejet_wand"
 	]
 

@@ -7,6 +7,7 @@
 		id: "contained:asteroid_hammer"
 	}
 	id: "155B728508CC2A5B"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -254,8 +255,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6E100367833D7147"
-				item: { count: 1, id: "minecraft:green_bed" }
+				id: "54EF8921A2AED1B2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d

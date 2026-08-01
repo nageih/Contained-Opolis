@@ -7,6 +7,7 @@
 		id: "minecraft:oak_log"
 	}
 	id: "0B30B87B4CF847BB"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -128,6 +129,7 @@
 		{
 			dependencies: ["353116548E54385F"]
 			id: "4E0E3C705BD5410A"
+			optional: true
 			rewards: [
 				{
 					id: "7E22E9F0FB67567B"
@@ -440,6 +442,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "01CDC15A6E836221"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "179C8F4003219DB9"
 					item: {
@@ -470,6 +480,14 @@
 			dependencies: ["5031A070DD8EE925"]
 			id: "6BFD62EB0881AE13"
 			optional: true
+			rewards: [{
+				id: "3DDF41122D8DAFCD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "494F13175084F8FC"
 				item: { count: 1, id: "integrateddynamics:cable" }
@@ -482,6 +500,14 @@
 			dependencies: ["24F48F79CE6CEA3F"]
 			id: "2469923A06D1513D"
 			optional: true
+			rewards: [{
+				id: "41F699169138BF22"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D6E72DABCFF5ED1"
@@ -501,6 +527,14 @@
 			dependencies: ["54ADF7BFDB3DE9C4"]
 			id: "5031A070DD8EE925"
 			optional: true
+			rewards: [{
+				id: "06B54FDF7E49EC2D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10B6A83C283BB6D7"
 				item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
@@ -513,14 +547,24 @@
 			dependencies: ["5031A070DD8EE925"]
 			id: "24F48F79CE6CEA3F"
 			optional: true
-			rewards: [{
-				id: "3310F49F3A7AD4DB"
-				item: {
-					count: 1
-					id: "integrateddynamics:portable_logic_programmer"
+			rewards: [
+				{
+					id: "205E54147356DE8F"
+					item: {
+						count: 1
+						id: "shops:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3310F49F3A7AD4DB"
+					item: {
+						count: 1
+						id: "integrateddynamics:portable_logic_programmer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D6FD62F8F977E6F"
 				item: { count: 1, id: "integrateddynamics:variable" }
@@ -533,6 +577,14 @@
 			dependencies: ["2469923A06D1513D"]
 			id: "60E726B0EC6FAD61"
 			optional: true
+			rewards: [{
+				id: "177278006175BB73"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "799AA9B7D42CD719"
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -545,6 +597,14 @@
 			dependencies: ["5031A070DD8EE925"]
 			id: "0E67A07FAA25FB40"
 			optional: true
+			rewards: [{
+				id: "0C2856272E065CE4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11BAB4D54136B94C"
 				item: { count: 1, id: "integrateddynamics:drying_basin" }
@@ -557,6 +617,14 @@
 			dependencies: ["60E726B0EC6FAD61"]
 			id: "4C3111EC5015F9C4"
 			optional: true
+			rewards: [{
+				id: "677264FA729EFC11"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "139282D294948DC5"
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -569,6 +637,14 @@
 			dependencies: ["60E726B0EC6FAD61"]
 			id: "08246666269F0AA2"
 			optional: true
+			rewards: [{
+				id: "3875B63FF6051402"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34F3AC19D422A5ED"
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -580,6 +656,7 @@
 		{
 			dependencies: ["4E0E3C705BD5410A"]
 			id: "75C07C3389A3AD8A"
+			optional: true
 			tasks: [{
 				id: "6201F3DF336B9314"
 				item: { count: 1, id: "opolisutilities:animal_net" }
@@ -594,6 +671,7 @@
 				"45BBB556A1823042"
 			]
 			id: "2A3F8CB17BFF849C"
+			optional: true
 			tasks: [{
 				id: "30DD4783C00AC12A"
 				item: { count: 1, id: "minecraft:leather" }
@@ -601,6 +679,26 @@
 			}]
 			x: 3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["5031A070DD8EE925"]
+			id: "73F19618A4530A43"
+			optional: true
+			rewards: [{
+				id: "13C986D657A75EAA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41000CAF55631194"
+				item: { count: 1, id: "integrateddynamics:wrench" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
 		}
 	]
 }

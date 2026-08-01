@@ -33,7 +33,7 @@
 		#The amount of items transferred
 		# Default: 8
 		# Range: > 1
-		basic = 4
+		basic = 8
 		#The amount of items transferred
 		# Default: 16
 		# Range: > 1
@@ -41,7 +41,7 @@
 		#The amount of items transferred
 		# Default: 32
 		# Range: > 1
-		advanced = 4
+		advanced = 16
 		#The amount of items transferred
 		# Default: 64
 		# Range: > 1

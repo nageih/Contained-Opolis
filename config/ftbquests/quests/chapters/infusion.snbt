@@ -7,6 +7,7 @@
 		id: "mysticalagriculture:infusion_altar"
 	}
 	id: "7E26117BF364AAE9"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -143,7 +144,7 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -181,7 +182,7 @@
 				item: { count: 1, id: "alltheores:electrum_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 5.0d
 		}
 		{
@@ -391,7 +392,7 @@
 				item: { count: 1, id: "justdirethings:blazegold_block" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
@@ -410,7 +411,7 @@
 				item: { count: 1, id: "justdirethings:blazegold_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -429,7 +430,7 @@
 				item: { count: 1, id: "justdirethings:blazejet_wand" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 7.5d
 		}
 		{
@@ -454,7 +455,7 @@
 				to_observe: "justdirethings:raw_blazegold_ore"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -473,7 +474,7 @@
 				item: { count: 1, id: "minecraft:gold_block" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 3.5d
 		}
 		{
@@ -492,7 +493,7 @@
 				item: { count: 1, id: "justdirethings:raw_blazegold" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 5.5d
 		}
 		{
@@ -532,7 +533,7 @@
 				item: { count: 1, id: "justdirethings:template_blazegold" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 6.5d
 		}
 		{
@@ -563,7 +564,7 @@
 				item: { count: 1, id: "pipez:advanced_upgrade" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -582,7 +583,7 @@
 				item: { count: 1, id: "pipez:filter_destination_tool" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -620,8 +621,71 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(enderstorage:ender_chest)item(enderstorage:ender_tank)item(enderstorage:ender_pouch)item(enderrf:ender_battery))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["44F2FA0B4607BCFA"]
+			id: "2F67D48B160EBA02"
+			optional: true
+			rewards: [{
+				id: "69D524DD23B32868"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F87FBF6089C87B8"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"44F2FA0B4607BCFA"
+				"418E6B337978295F"
+			]
+			id: "7969810BC4CB2B3F"
+			optional: true
+			rewards: [{
+				id: "7210C5C325D5DA77"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E263F78C006CC2"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["418E6B337978295F"]
+			id: "1FD5E029576E0433"
+			optional: true
+			rewards: [{
+				id: "255D5B9BB0A01ECA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BBAC1837EA06F65"
+				item: { count: 1, id: "oritech:machine_burst_addon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
 		}
 	]
 }

@@ -1,3 +1,6 @@
+//priority: 10
+
+
 Platform.getInfo('contained').name = 'Contained'
 
 StartupEvents.registry('item', event => {
@@ -96,7 +99,7 @@ StartupEvents.registry('item', event => {
   event.create("contained:catalog").tag('shops:catalogs').texture("minecraft:item/enchanted_book").maxStackSize(1)
 
   //Resources
-  event.create("contained:primal_steel_ingot").tag("c:ingots/primal_steel").tag("c:ingots") 
+  event.create("contained:primal_steel_ingot").tag("c:ingots/primal_steel").tag("c:ingots")
   event.create("contained:primal_steel_nugget").tag("c:nuggets/primal_steel").tag("c:nuggets")
   event.create("contained:primal_steel_dust").tag("c:dusts/primal_steel").tag("c:dusts")
   event.create("contained:obsidian_dust").tag("c:dusts/obsidian").tag("c:dusts")
@@ -127,6 +130,7 @@ StartupEvents.registry('item', event => {
   event.create("contained:ancient_ashes").tag("c:dusts")
   event.create("contained:ancient_ingot").tag("c:ingots")
 
+
   //Asteroid Dust
   colors.forEach(color => {
     event.create(`contained:${color}_asteroid_dust`).tag(`c:dusts/${color}_asteroid`).tag('bblcore:banned_from_coloring')
@@ -142,107 +146,114 @@ StartupEvents.registry('item', event => {
   event.create("contained:roasted_rocks").food(3, 0.5).tooltip("Crunchy!")
   event.create("contained:stone_bowl")
   event.create("contained:goo_bowl_t1")
-  .displayName("Primogel goo stew")
-  .tooltip("§9Haste I (5:00)")
-  .tooltip("§9Speed I (5:00)")
-  .food(food => {
-    food
-      .nutrition(4)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 0, 1.0)
-      .effect("minecraft:speed", 300*20, 0, 1.0)
-      // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Primogel goo stew")
+    .tooltip("§9Haste I (5:00)")
+    .tooltip("§9Speed I (5:00)")
+    .food(food => {
+      food
+        .nutrition(4)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300 * 20, 0, 1.0)
+        .effect("minecraft:speed", 300 * 20, 0, 1.0)
+        // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   //Food stuff
   event.create("contained:rocky_soup")
-  .displayName("Rocky Soup")
-  .tooltip("A Tasty Soup")
-  .food(food => {
-    food
-      .nutrition(6)
-      .saturation(1)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Rocky Soup")
+    .tooltip("A Tasty Soup")
+    .food(food => {
+      food
+        .nutrition(6)
+        .saturation(1)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t2")
-  .displayName("Blazebloom goo stew")
-  .tooltip("§9Haste II (5:00)")
-  .tooltip("§9Speed II (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
-  .food(food => {
-    food
-      .nutrition(9)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 1, 1.0)
-      .effect("minecraft:speed", 300*20, 1, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Blazebloom goo stew")
+    .tooltip("§9Haste II (5:00)")
+    .tooltip("§9Speed II (5:00)")
+    .tooltip("§9Fire Resistance (5:00)")
+    .food(food => {
+      food
+        .nutrition(9)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300 * 20, 1, 1.0)
+        .effect("minecraft:speed", 300 * 20, 1, 1.0)
+        .effect("minecraft:fire_resistance", 300 * 20, 0, 1.0)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t3")
-  .displayName("Voidshimmer goo stew")
-  .tooltip("§9Haste III (5:00)")
-  .tooltip("§9Speed III (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
-  .tooltip("§9Night Vision (5:00)")
-  .tooltip("§9Resistance I (5:00)")
-  .tooltip("§9Strength I (5:00)")
-  .food(food => {
-    food
-      .nutrition(15)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 2, 1.0)
-      .effect("minecraft:speed", 300*20, 2, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .effect("minecraft:night_vision", 300*20, 0, 1.0)
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Voidshimmer goo stew")
+    .tooltip("§9Haste III (5:00)")
+    .tooltip("§9Speed III (5:00)")
+    .tooltip("§9Fire Resistance (5:00)")
+    .tooltip("§9Night Vision (5:00)")
+    .tooltip("§9Resistance I (5:00)")
+    .tooltip("§9Strength I (5:00)")
+    .food(food => {
+      food
+        .nutrition(15)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300 * 20, 2, 1.0)
+        .effect("minecraft:speed", 300 * 20, 2, 1.0)
+        .effect("minecraft:fire_resistance", 300 * 20, 0, 1.0)
+        .effect("minecraft:night_vision", 300 * 20, 0, 1.0)
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
 
   event.create("contained:goo_bowl_t4")
-  .displayName("Shadowpulse goo stew")
-  .tooltip("§9Haste IV (5:00)")
-  .tooltip("§9Speed IV (5:00)")
-  .tooltip("§9Fire Resistance (5:00)")
-  .tooltip("§9Night Vision (5:00)")
-  .tooltip("§9Resistance II (5:00)")
-  .tooltip("§9Strength II (5:00)")
-  .food(food => {
-    food
-      .nutrition(20)
-      .saturation(1)
-      .alwaysEdible(true)
-      .effect("minecraft:haste", 300*20, 3, 1.0)
-      .effect("minecraft:speed", 300*20, 3, 1.0)
-      .effect("minecraft:fire_resistance", 300*20, 0, 1.0)
-      .effect("minecraft:night_vision", 300*20, 0, 1.0)
-      .effect("minecraft:resistance", 300*20, 1, 1.0)
-      .effect("minecraft:strength", 300*20, 1, 1.0)
-      // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
-      .eaten(ctx => {
-        ctx.player.give(Item.of("contained:stone_bowl", 1))
-      })
-  })
+    .displayName("Shadowpulse goo stew")
+    .tooltip("§9Haste IV (5:00)")
+    .tooltip("§9Speed IV (5:00)")
+    .tooltip("§9Fire Resistance (5:00)")
+    .tooltip("§9Night Vision (5:00)")
+    .tooltip("§9Resistance II (5:00)")
+    .tooltip("§9Strength II (5:00)")
+    .food(food => {
+      food
+        .nutrition(20)
+        .saturation(1)
+        .alwaysEdible(true)
+        .effect("minecraft:haste", 300 * 20, 3, 1.0)
+        .effect("minecraft:speed", 300 * 20, 3, 1.0)
+        .effect("minecraft:fire_resistance", 300 * 20, 0, 1.0)
+        .effect("minecraft:night_vision", 300 * 20, 0, 1.0)
+        .effect("minecraft:resistance", 300 * 20, 1, 1.0)
+        .effect("minecraft:strength", 300 * 20, 1, 1.0)
+        // .usingConvertsTo("contained:stone_bowl") // doesn't seem to work :(
+        .eaten(ctx => {
+          ctx.player.give(Item.of("contained:stone_bowl", 1))
+        })
+    })
+
+  //Infinity Drives
+  event.create("contained:infinity_sand_drive", 'infinity_drive').infinityStack("minecraft:sand")
+  event.create("contained:infinity_gravel_drive", 'infinity_drive').infinityStack("minecraft:gravel")
+  event.create("contained:infinity_dirt_drive", 'infinity_drive').infinityStack("minecraft:dirt")
+  event.create("contained:infinity_stone_drive", 'infinity_drive').infinityStack("minecraft:stone")
+
 })
 
 
 StartupEvents.registry('armor_material', event => {
 
-  event.create('contained:space_suit').defense({"boots": 0, "leggings": 1, "chestplate": 1, "helmet": 0, "body": 1})
-  event.create('contained:ferricore_space_suit').defense({"boots": 1, "leggings": 3, "chestplate": 4, "helmet": 2, "body": 4})
-  event.create('contained:blazegold_space_suit').defense({"boots": 2, "leggings": 4, "chestplate": 5, "helmet": 3, "body": 5})
-  event.create('contained:celestigem_space_suit').defense({"boots": 4, "leggings": 5, "chestplate": 7, "helmet": 5, "body": 5})
+  event.create('contained:space_suit').defense({ "boots": 0, "leggings": 1, "chestplate": 1, "helmet": 0, "body": 1 })
+  event.create('contained:ferricore_space_suit').defense({ "boots": 1, "leggings": 3, "chestplate": 4, "helmet": 2, "body": 4 })
+  event.create('contained:blazegold_space_suit').defense({ "boots": 2, "leggings": 4, "chestplate": 5, "helmet": 3, "body": 5 })
+  event.create('contained:celestigem_space_suit').defense({ "boots": 4, "leggings": 5, "chestplate": 7, "helmet": 5, "body": 5 })
 
 })

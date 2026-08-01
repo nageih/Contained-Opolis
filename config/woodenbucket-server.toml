@@ -1,12 +1,12 @@
 ["Balance Options"]
+	#Fluid temperature from which you get a burning effect if a Wooden Bucket contains such a hot fluid. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
+	# Default: 1000
+	# Range: -10000 ~ 10000
+	burningTemperature = 10000
 	#Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
 	# Default: 1000
 	# Range: -10000 ~ 10000
 	crackingTemperature = 1000
-	#Fluid temperature from which you get a burning effect if a Wooden Bucket contains such a hot fluid. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
-	# Default: 1000
-	# Range: -10000 ~ 10000
-	burningTemperature = 1000
 	#Defines the maximum durability of Wooden Bucket. (default: 25, 0: deactivates the durability)
 	# Default: 25
 	# Range: 0 ~ 10000

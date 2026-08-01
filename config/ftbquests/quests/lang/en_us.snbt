@@ -31,6 +31,7 @@
 	chapter_group.700E0B302C809164.title: "Asteroids"
 	chapter_group.7D64C2BEE1124C5E.title: "Overworld"
 	file.0000000000000001.title: "Contained"
+	image.02E541E3EA5749DF.title: "Click For a YouTube Video"
 	quest.0101CF7061C0BCAC.quest_desc: ["A block of &lIron&r"]
 	quest.0108195534AF5DA5.quest_desc: ["Enter the &b&lOverworld&r&r"]
 	quest.0108195534AF5DA5.title: "Home Sweet Home..."
@@ -58,9 +59,9 @@
 	quest.03810811D74B549E.quest_desc: ["Placing a &lBiomass Block&r next to a &lPrimogel Goo&r will transform it into &lBio Fuel&r"]
 	quest.03810811D74B549E.title: "Bio Fuel"
 	quest.03A4B0F2D17CBBAA.quest_desc: [
-		"Place a mysterious block extractor on top of an ancient ashes deposit."
+		"Place a Mysterious Block Extractor on top of an &lAncient Ashes Deposit&r."
 		""
-		"Ancient ashes deposits spawn on fractoria's surface, and you can search them as \"contained:fractoria_deposit\" on the structure compass."
+		" &lAncient Ashes Deposits&r spawn on &l&7Fractoria&r surface, and you can search them as \"contained:fractoria_deposit\" in the Explorer's compass."
 	]
 	quest.03A4B0F2D17CBBAA.title: "Anicent Ashes Deposit"
 	quest.03B00801124D7084.quest_desc: ["Drops from the &lMysterious Biomass Block&r"]
@@ -80,7 +81,7 @@
 	quest.06001485F671F236.quest_desc: ["A simple crafting table"]
 	quest.063B103CDA455EF3.quest_desc: ["Breaking &lCracked Stone&r"]
 	quest.066273AC424990C5.quest_desc: ["TODO: How to get (non-reinforced) deepslate"]
-	quest.06B17BA4C2705614.quest_desc: ["Allows your &lMultiblock Controller&r to create &lAlloys&r"]
+	quest.06B17BA4C2705614.quest_desc: ["Allows your &lMultiblock Controller&r to create &lAlloys&r like &5&lObsidian&r"]
 	quest.06D2BA001AB0E3CB.quest_desc: ["Used for more advanced machines"]
 	quest.06D6E46747944078.quest_desc: ["With &lWater&r and &lPacked Wheat&r you can create &lRaw Biopolymer&r inside the Centrifuge"]
 	quest.06E0DAE79C55CE3A.quest_desc: ["Placing a &lReinforced Deepslate&r next to a &lShadowpulse Goo&r will transform it into an&l Ancient Debris&r"]
@@ -105,7 +106,11 @@
 	quest.0A22C81B292D1FC9.quest_desc: ["Drops from a &lMysterious Block&r"]
 	quest.0A51E4F0CF3B96FA.title: "Large Asteroid"
 	quest.0A9933876E170AC8.quest_desc: ["Found inside the &l&6Cindrath Deltas&r"]
-	quest.0AA90A196929FAED.quest_desc: ["Builds 4 items into 1"]
+	quest.0AA90A196929FAED.quest_desc: [
+		"Builds 4 items into 1"
+		""
+		"It can also make higher tiered addons"
+	]
 	quest.0AAF3F6704E72CD9.quest_desc: ["Made on the &5&lStygian Anvil&r"]
 	quest.0AB57C48AAE1413C.quest_desc: ["Higher and Higher"]
 	quest.0AD8609675672F1E.quest_desc: ["Place the portal frames in the shape of a nether portal and right click the base with the elemental essence."]
@@ -189,7 +194,11 @@
 	quest.130C3418758632A0.quest_desc: ["Easy way to automate the infusion crafting"]
 	quest.134AF3D5997C5673.quest_desc: ["Like the glass but breakable"]
 	quest.134AF3D5997C5673.quest_subtitle: "Decorative"
-	quest.136ACCF44D28FE3B.quest_desc: ["Using an &lAnvil&r with this book on a Sword will allow you to kill the &lWarden&r. Level V will instantly kill the &lWarden&r"]
+	quest.136ACCF44D28FE3B.quest_desc: [
+		"Using an &lAnvil&r with this book on a Weapon will allow you to kill the &lWarden&r easier. Level V will instantly kill the &lWarden&r"
+		""
+		"You can also get this enchant on to the &lWeapon&r if you use an &lEnchanting Table&r"
+	]
 	quest.136B568B4BD383A3.quest_desc: ["Found on and inside the &lLarge Asteroids&r"]
 	quest.136DD0E1D257F729.quest_desc: ["&lLight Gray Asteroid&r can be melted into &lMolten Stone&r"]
 	quest.138A2AFCBFBB72A9.quest_desc: ["Crafted &lIngots&r"]
@@ -243,6 +252,7 @@
 	quest.1BEBCAC3E03E5E75.quest_desc: ["What a baby"]
 	quest.1C41D8ECDDBF4146.quest_desc: ["From &lBio Spores&r"]
 	quest.1C4DA01CCBF07D6C.quest_desc: ["Provides protection from fall damage "]
+	quest.1CABC2D05C7F4C21.quest_desc: ["Increases the resource yield for the Enderic Laser. Up to 3 yield addons can be installed."]
 	quest.1CD3CC888CC01672.quest_desc: ["A different Altar, uses essences and items "]
 	quest.1CD9E71781436FC4.quest_desc: ["Now you have more familiar &lSaplings&r you can use most vanilla &lWoods&r to make &lDrawers,&r these allow for more bulk storage of items"]
 	quest.1CD9E71781436FC4.title: "Functional Storage"
@@ -274,6 +284,7 @@
 	quest.1E8A69EA224025CA.quest_desc: ["Looks a bit like paper"]
 	quest.1EF9F1472A10D37C.quest_desc: ["Used to create &lBone Meal&r from organic materials "]
 	quest.1FAE434D07271330.quest_desc: ["Crafted &lSmall Dust&r"]
+	quest.1FD5E029576E0433.quest_desc: ["It can make processing machine run 8x faster but it can overheat"]
 	quest.20729F28DD1C832C.quest_desc: ["Punch tree get wood I know that!"]
 	quest.214F763DA6D628A3.quest_desc: [
 		"The &l&6Speed Sensor&r can be used to detect the speed of the &l&dParticle Accelerator&r."
@@ -331,6 +342,11 @@
 	quest.26CFF763D624325F.quest_desc: ["When in the &lUpgrade Slot&r allows for &lNetherite Shards&r to be dropped"]
 	quest.26D9C302307DE18F.quest_desc: ["Finally, light it with the &b&lOverworld Crystal&r&r"]
 	quest.26F5F9F62862B535.quest_desc: ["From the &lPulverizer&r"]
+	quest.279B37E39C0408C9.quest_desc: [
+		"Increases the energy buffer of any energy block by 2,000,000 RF. It also boosts throughput by 2,000 RF/t."
+		""
+		"&oTier 4 upgrades are also makeable.&r"
+	]
 	quest.27D44033A4DEAFD6.quest_desc: ["Broken &lGlowstone Block&r"]
 	quest.27F89ACF28EC38DE.quest_desc: ["Made from &lLeaves&r"]
 	quest.28287C8C4CEBF1EC.quest_desc: ["Placing a &lMysterious Organic Compost&r next to a &lBlazebloom Goo&r will transform it into&l Mysterious Biomass&r"]
@@ -389,6 +405,7 @@
 	quest.2C8E3EA37FB8BD7D.quest_desc: ["A much better fuel source for creating power"]
 	quest.2CB1484D1D180272.quest_desc: ["Placing a &lCoal Block&r next to a &lPrimogel Goo&r will transform it into&l Raw Primal Coal&r"]
 	quest.2CB1484D1D180272.title: "Raw Primal Coal"
+	quest.2CCBAC253E28A702.quest_desc: ["An empty drive that has the ability to create an &lInfinty Drive&r"]
 	quest.2CF1282FE076163B.quest_desc: ["Upgrades your &lSpace Suit&r"]
 	quest.2D02886049179C79.quest_desc: ["From seeds"]
 	quest.2D51F50F0121FE98.quest_desc: [
@@ -404,9 +421,9 @@
 	quest.2E3BCD0FD945703C.quest_desc: ["Is it alive? You can feed it &lOrganic Powder&r"]
 	quest.2E5526933F43DCCB.quest_desc: ["A block of &lFluix&r"]
 	quest.2E750A3B80173D52.quest_desc: [
-		"Place a mysterious block extractor on top of a cindrath deposit."
+		"Place a Mysterious Block Extractor on top of a &lCindrath deposit&r."
 		""
-		"Cindrath deposits spawn at bedrock on cindrath, and you can search them as \"contained:cindrath_deposit\" on the structure compass."
+		"&lCindrath deposits&r spawn at bedrock on &l&6Cindrath&r and you can search them as \"contained:cindrath_deposit\" in the Explorer's compass."
 	]
 	quest.2E750A3B80173D52.title: "Cindrath Core Deposit"
 	quest.2E8FA529D92677C6.quest_desc: ["Made inside the &lSolar Cooker&r"]
@@ -419,6 +436,7 @@
 	quest.2EFC6ED67A871595.quest_desc: ["A world full of crystals"]
 	quest.2EFC6ED67A871595.title: "Planet: Crystalore"
 	quest.2F62BECBD7D9C69A.quest_desc: ["Crafted &lSmall Dust&r"]
+	quest.2F67D48B160EBA02.quest_desc: ["Makes the machine work faster at the cost of energy efficiency "]
 	quest.2F7BFB4055C1A3CE.quest_desc: ["Obtained through the &lMysterious Asteroid&r"]
 	quest.2FB5F5C0F0517030.quest_desc: ["Can be smelted into &lGlass&r"]
 	quest.2FF06205C7788DBC.quest_desc: ["Enables &lredstone control&r of pipes"]
@@ -492,6 +510,8 @@
 	quest.39229EAE57E8F201.quest_desc: ["&lSmall Dusts&r can be turned into &lNuggets&r"]
 	quest.3A0F80FBCAB48921.quest_desc: ["&lBio Spores&r can be grown inside a &lCloche&r to produce more spores and sometimes a &lWheat Seed&r"]
 	quest.3A433F4018D003A3.quest_desc: ["An upgraded essence"]
+	quest.3A5559CD11701E81.quest_desc: ["When placed inside a &lInfinty Storage Drive Block&r provides an infinite amount of that resource"]
+	quest.3A5559CD11701E81.title: "Infinity Drives"
 	quest.3A5817AE142DBDC7.quest_desc: ["From &lDeepslate Essence&r"]
 	quest.3A89DC52CD5710BB.quest_desc: ["Can be grown in the &lCloche&r"]
 	quest.3AD04CFE403FCC83.quest_desc: ["Smelted Dust"]
@@ -539,6 +559,7 @@
 	quest.400B1B016103D8E2.quest_desc: ["A block of &lCharcoal&r"]
 	quest.401B86C535092465.quest_desc: ["Crafted with &lMysterious Powder&r and &lLight Gray Asteroid Dust&r"]
 	quest.406A964D9C02620F.quest_desc: ["Made inside the &lCentrifuge&r"]
+	quest.4085636DB49BD568.quest_desc: ["Higher tiered speed addon"]
 	quest.40F5A03941019E1B.quest_desc: ["The &b&lOverworld&r&r needs resources"]
 	quest.41357EC9BBA2CD1D.quest_desc: ["A huge advancement in tech"]
 	quest.4175D431728DF546.quest_desc: ["Drops from &lRaw Blaze Embert&r"]
@@ -560,6 +581,11 @@
 	]
 	quest.42D14045A0C61BEC.quest_desc: ["A simple coil"]
 	quest.42E7D3E38261825D.quest_desc: ["Placing this above the &lSolar Cooker&r allows you to use the &lSolar Cooker&r when its dark"]
+	quest.4340D84C0B477200.quest_desc: [
+		"Drops from &lWither Skeletons&r in &l&6Cindrath&r"
+		""
+		"Once you have one skull you can put &lBeheading modifier&r on a sword and with that sword you have 100% chance of getting a skull when you kill a &lWither Skeletons&r"
+	]
 	quest.444DE503B13B86A6.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.444F290016E6B91E.quest_desc: ["Smelted &lChorus Fruit&r"]
 	quest.447B001B246EDBF0.quest_desc: ["Can be grown in the &lCloche&r"]
@@ -596,6 +622,11 @@
 		"It can remove Room Key Blocks too but if you remove all of them you can softlock yourself since these Room Key Blocks are still needed later in the pack"
 	]
 	quest.4708A895CDDC2763.quest_desc: ["Crafted &lRocks&r"]
+	quest.471E64532CEC2EB3.quest_desc: [
+		"Provides an external power connection for any energy block, adding 500,000 RF capacity. It also boosts throughput by 5,000 RF/t. "
+		""
+		"&oTier 4 upgrades are also makeable.&r"
+	]
 	quest.4734CEED8DB369B1.quest_desc: ["&lEnd Steel&r and &lPopped Chorus&r can be used to make &lEnderic Compound&r"]
 	quest.47E064DA476BDD8C.quest_desc: ["The &lSculk Collector&r can be used to obtain &lSculk&r and other &lSculk&r blocks in &l&#6075ffCrystalore&r. Usual vanilla methods of obtaining &lSculk&r do not work"]
 	quest.4800A8020B754356.quest_desc: ["A strange block that constantly regenerates."]
@@ -649,6 +680,7 @@
 	quest.4E5B532B58CD9523.quest_desc: ["Smelted &lDust&r"]
 	quest.4E9430CEE865C078.quest_desc: ["Can be crafted with &lRed&r and &lYellow Asteroid Dust&r"]
 	quest.4EA0C2EE474CF072.quest_desc: ["Solid &lIron&r"]
+	quest.4EB60E2E256C5BA8.quest_desc: ["Higher tiered efficiency addon"]
 	quest.4EDF15C05CB587CE.quest_desc: ["Break a &lSkystone Chest&r with the &lEnderic Laser&r"]
 	quest.4EE563B3394B8D22.quest_desc: ["Pulverized &lAsteroid&r"]
 	quest.4EF47489FF8E3993.quest_desc: ["Whats in the roof"]
@@ -705,7 +737,8 @@
 	quest.558485A0E8F5F4B6.quest_desc: ["Made inside the &lFoundry&r"]
 	quest.566C4428EC67AA8E.quest_desc: ["The heart of &lFunctional Drawers&r"]
 	quest.566D788F1745296F.quest_desc: ["A faster furnace"]
-	quest.56CB8E4693E00C3E.quest_desc: ["The first tier of reactors, uses &a&lUraninite&r as a fuel source and &l&zMystical Coals&r for Carbon"]
+	quest.56ADD238063379B9.quest_desc: ["Allows additional addons to be connected to a machine or another extender. The maximum number you can attach depends on your Machine Core's quality"]
+	quest.56CB8E4693E00C3E.quest_desc: ["The first tier of reactors, uses &a&lUraninite&r as a fuel source and for Carbon you can use &l&zMystical Coals&r"]
 	quest.57077D31FEBE96D6.quest_desc: ["A high level machine used to forge strange items"]
 	quest.571E5DBB56E82F32.quest_desc: [
 		"A strange block that constantly regenerates."
@@ -715,9 +748,9 @@
 	quest.579C5BD19C42C10B.quest_desc: ["Combining the power of the &lSlime Sling&r and the &lHang Glider&r allows you to travel long distance onto new Asteroids"]
 	quest.57B658AAF702E5E8.quest_desc: ["A strange block that never breaks. Needs &lIron Tools&r or better to mine"]
 	quest.57F4F469BC763B2D.quest_desc: [
-		"Place a mysterious block extractor on top of a crystalline deposit."
+		"Place a Mysterious Block Extractor on top of a &lCrystalline Deposit&r."
 		""
-		"Crystalline deposits spawn at bedrock on crystalore, and you can search them as \"contained:crystalore_deposit\" on the structure compass."
+		"&lCrystalline Deposits&r spawn at bedrock on &l&#6075ffCrystalore&r and you can search them as \"contained:crystalore_deposit\" in the Explorer's compass."
 	]
 	quest.57F4F469BC763B2D.title: "Crystalline Quartz Deposit"
 	quest.5818A0F550CD2E01.quest_desc: ["From &lMolten Nickel&r"]
@@ -801,7 +834,12 @@
 	quest.6191019505CAC88F.quest_desc: ["A better source of power, require &lOil&r or &lTurbo Fuel&r"]
 	quest.6197E9A63931515C.quest_desc: ["Can be placed above a &lStrainer&r to prevent spills"]
 	quest.61B79C1E220FD1F4.quest_desc: ["From dropping &lMud&r into &lPolymorphic&r Fluid"]
-	quest.61FBB2E2C2AA5D51.quest_desc: ["Drops from the &lWarden&r"]
+	quest.61FBB2E2C2AA5D51.quest_desc: [
+		"Drops from the &lWarden&r"
+		""
+		"You can summon a Warden by triggering a naturally generated sculk shriekers four times to max out your warning level."
+		"The shrieker spawns a warden 4.5 seconds after the warning level reaches level four"
+	]
 	quest.61FFBEB269FC3022.quest_desc: ["The next tier of &lGoo&r"]
 	quest.61FFC3441A8AA10D.quest_desc: ["Crafted &lSmall Dust&r"]
 	quest.623E510001132EDB.quest_desc: ["Smelted &lDust&r"]
@@ -820,13 +858,19 @@
 	quest.64A5919E38711DE5.quest_desc: ["Made inside the &lSolar Cooker&r"]
 	quest.64AF5C7EADDB1D48.quest_desc: ["Spining &lCoal&r, Co&lal&r is obtained with &lBlack Asteroids&r"]
 	quest.64DF55C3244AFDDD.quest_desc: ["Drops from &lMysterious End Stone&r"]
+	quest.65111C91ADE92BAF.quest_desc: ["Dropped from the &lWither&r when killed"]
 	quest.659B46412BD87214.quest_desc: ["Crafted &lEnder Pearl Fragments&r"]
+	quest.65BF038B1B31398D.quest_desc: [
+		"Allows an additional recipe instance to be processed per cycle, at the cost of 50% extra energy consumption."
+		""
+		"&oTier 9 upgrade are also makeable.&r"
+	]
 	quest.65D5B1D287B49B34.quest_desc: ["Crafted from &lEnder Pearl Fragments&r"]
 	quest.65E7518A01D4E0EC.quest_desc: ["This is used to make &lVitality Fuel&r needed to power the &lWoot Multliblock&r. The guide book shows the amount of fluid needed per valid mob"]
 	quest.65EBEFA09D9F0231.quest_desc: [
 		"Join the &lBBL Discord&r for support, report bugs and suggest features or additions."
 		""
-		"Use /discord in game to get the link"
+		"Use &l/discord&r in game to get the link"
 	]
 	quest.662D0FE7DAC0062E.quest_desc: ["Crafted &lShards&r"]
 	quest.6639AFC202264868.quest_desc: ["Pure Chaos, these look like they could be useful"]
@@ -835,7 +879,7 @@
 		""
 		"The &lJets modifier&r allows you to jet into the air. "
 		"Can be added to &lBoots, Leggings and Chestplates&r "
-		"You just need to put in &l&7Primal Steel Ingots&r &l+ Armor Piece&r"
+		"You just need to put in &l&7Primal Steel Ingots&r in the first slot and the &lArmor Piece&r in the second slot"
 		""
 		"You can put &lLevel 10 Unbreaking modifier&r on a tools, armors, meshes, sculk collectors, blaze keys and construction stick which makes them unbreakable"
 	]
@@ -956,6 +1000,7 @@
 	quest.737618A73E4890FF.quest_desc: ["Even better protection required for &l&7Fractoria&r"]
 	quest.737618A73E4890FF.title: "Fractoria Prep"
 	quest.7395DF0BA7283B3F.quest_desc: ["Useful for digging"]
+	quest.73F19618A4530A43.quest_desc: ["Use this to safely pick up Integrated Dynamics blocks, as breaking them with a pickaxe that has modifiers on it will void them "]
 	quest.73FE8EF1B1A4F2E7.quest_desc: [
 		"&lAssemble&r the &lEnderic Lens&r to grow budding resources!"
 		""
@@ -980,7 +1025,8 @@
 	quest.749763425AE50803.quest_desc: ["Smelted &lPrimal Steel Dust&r"]
 	quest.749AC396626554C2.quest_desc: ["Crafted &lSmall Dust&r"]
 	quest.74D4A06E042651A2.quest_desc: ["Obtained through &lStraining&r"]
-	quest.751643E87AE95395.quest_desc: ["So comfy but also explody"]
+	quest.751643E87AE95395.quest_desc: ["So comfy"]
+	quest.751643E87AE95395.title: "Bed"
 	quest.7533FB337511EE3F.quest_desc: ["&lAsteroid Dust&r and &lResources&r"]
 	quest.754102C77BBCFDCA.quest_desc: ["Made from Leaves"]
 	quest.758AD2B4B65A2F5C.quest_desc: ["Obtained inside the &lLarge Yellow Asteroid&r"]
@@ -1001,9 +1047,10 @@
 	quest.78B1D569D8D27D15.quest_desc: ["&lPrimal Coal Dust&r on &lRed Asteroid Block&r"]
 	quest.78CB4432482A3D0D.quest_desc: ["Smelted &lDust&r"]
 	quest.78F977EB4BEA96C6.quest_desc: ["Liquify &zdyes&r"]
+	quest.7969810BC4CB2B3F.quest_desc: ["Improves the energy efficiency of the machine"]
 	quest.79881391D8CA2148.quest_desc: ["A block of &lNetherite&r"]
 	quest.79971AAF5785E5ED.quest_desc: ["&lBlock of Biomass&r"]
-	quest.79CB2F23503A6C71.quest_desc: ["Configure your &lPipes&r"]
+	quest.79CB2F23503A6C71.quest_desc: ["You need to use a wrench to set the &lPipez pipes&r to output"]
 	quest.7A3E710F403BCB37.quest_desc: ["From &lShard Upgrade&r"]
 	quest.7A4F6E3626E11B0A.quest_desc: ["Goo blocks processed down into nutritious stews. Each stew tier gives stronger effects when consumed."]
 	quest.7A4F6E3626E11B0A.title: "Goo Stews"
@@ -1042,6 +1089,11 @@
 	quest.7E809C94A1F48291.quest_desc: ["Allows the creation of the next tier of essence"]
 	quest.7EFC62A6DC0AAAD7.quest_desc: ["Broken down &lCharcoal&r"]
 	quest.7EFD2B656498D66D.quest_desc: ["A block of &lRedstone&r"]
+	quest.7F0128F48F869A10.quest_desc: [
+		"You can connect the &lInfinty Storage Drive Block&r to &lRS&r with an &lExternal Storage&r or to &lAE2&r with a &lME Storage Bus&r"
+		""
+		"But &lRouters&r, &lPipez&r and most mods can extract from this block directly too"
+	]
 	quest.7F065E045DFDC157.quest_desc: ["Now I can place blocks, Maybe using a &lSharp Pebble&r on a &lStone&r will break it"]
 	quest.7F37D9581246002B.quest_desc: ["Required machine for crafting &ladvanced&r oritech materials"]
 	quest.7F644441625E5DAB.quest_desc: ["Light Reading"]
@@ -1055,6 +1107,10 @@
 		"&lAE2 Blackout&r, Reduces the brightness of AE2 blocks and GUI's"
 		""
 		"&lPretty X Smart Pipez&r, Makes Pipez pipes look better"
+		""
+		"&lPretty Routers&r changes how the routers look"
+		""
+		"&lConstruction Sticks Grips&r adds distinct grips to Construction Sticks so they stand out clearly from regular sticks"
 	]
 	quest.7FA4FAAA8A7509AA.quest_desc: ["&lSeeds&r can be found in the &lLarge Asteroid Room&r"]
 	quest.7FAEB1F541D28E3A.quest_desc: ["Part of the &lRefinery&r"]
@@ -1062,6 +1118,7 @@
 	reward_table.0C7DB9A9CD4CC5DF.title: "Random Goo Stew"
 	task.00A404CA8E6B01FA.title: "Sulfuric Acid"
 	task.03850A1C981207B6.title: "chaos stuff"
+	task.0413670B82FF66BE.title: "Infinity Drives"
 	task.050347DF47007109.title: "Any #minecraft:saplings"
 	task.057CB1E08F68EE0B.title: "GG"
 	task.08D9159CA1C4A97B.title: "What Happened"
@@ -1113,6 +1170,7 @@
 	task.524CAA1C83702AEB.title: "Tiers"
 	task.543E1DCF89952511.title: "Any #contained:item_pipes"
 	task.546EAB8883D1DB46.title: "Support"
+	task.54EF8921A2AED1B2.title: "Any #minecraft:beds"
 	task.585CC4000AE8BA91.title: "add the rest"
 	task.5BF799A75A774B69.title: "Any Goo Stew"
 	task.5E8B2D6EB618F8CE.title: "Resource Packs"

@@ -66,7 +66,9 @@ ServerEvents.tags("item", (event) => {
         "mysticalagriculture:dye_agglomeratio",
         "strainers:blazing_salt_mulch",
         "pipez:improved_upgrade",
-        "supplementaries:pancake"
+        "supplementaries:pancake",
+        'extendedae:infinity_cobblestone_cell',
+        'extendedae:infinity_water_cell',
     ]);
 });
 

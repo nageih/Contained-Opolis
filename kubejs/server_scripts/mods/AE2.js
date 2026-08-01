@@ -10,6 +10,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
     event.remove({ id: 'ae2:transform/fluix_crystals' })
     event.remove({ id: 'ae2:transform/fluix_crystal' })
+    event.remove({ id: 'ae_universal_press:silicon_from_sand_certus_dust' })
+    event.remove({ id: 'ae2:smelting/silicon_from_certus_quartz_dust' })
+    event.remove({ id: 'ae2:blasting/silicon_from_certus_quartz_dust' })
 
     //Replace 
     event.replaceInput({ id: 'ae2:network/blocks/controller' }, 'ae2:smooth_sky_stone_block', 'colors:light_gray_asteroid')

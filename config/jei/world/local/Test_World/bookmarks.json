@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"draconicevolution:chaotic_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:refinery_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

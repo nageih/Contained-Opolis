@@ -59,6 +59,8 @@ ServerEvents.recipes(event => {
         'mysticalagriculture:nature_essence',
         'mysticalagriculture:experience_essence',
         'contained:elemental_essence',
+        'mysticalagriculture:deepslate_essence',
+        'mysticalagriculture:sky_stone_essence'
     ]
 
     // Essences fully removed from the pack - kill any recipe that requires them, regardless of recipe type
